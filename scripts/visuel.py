@@ -10,7 +10,7 @@ racine = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 base = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8765/"
 with sync_playwright() as p:
     b = p.chromium.launch()
-    pg = b.new_context(viewport={"width": 1200, "height": 1000}, device_scale_factor=2).new_page()
+    pg = b.new_context(viewport={"width": 700, "height": 1100}, device_scale_factor=2).new_page()
     pg.goto(base + "index.html?visuel=opportunites")
     pg.wait_for_timeout(1500)
     champ = pg.query_selector("input")
