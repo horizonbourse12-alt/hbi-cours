@@ -1,10 +1,12 @@
 name: BOC du soir
+# Une seule exécution longue : elle cherche le BOC du jour toutes les 10 minutes (de 16h30 à 21h00, heure d'Abidjan = UTC),
+# écrit la clôture officielle dès qu'il est en ligne, télécharge les rapports annoncés, archive les BOC du mois, puis s'arrête.
+# (Les lancements programmés de GitHub sont souvent retardés ou sautés : une exécution longue, avec lancement de secours, est plus fiable.)
 on:
   schedule:
-    - cron: "0,30 17-20 * * 1-5"   # 17h00 à 20h30 UTC = heure d'Abidjan ; GitHub peut retarder un lancement
-    - cron: "30 16 * * 1-5"        # premier passage à 16h30 (le BOC sort parfois vers 16h40)
-    - cron: "0 21 * * 1-5"         # dernier passage à 21h00
-  workflow_dispatch: {}
+    - cron: "30 16 * * 1-5"        # démarrage normal, 16h30
+    - cron: "10 18 * * 1-5"        # lancement de secours si celui de 16h30 a été sauté
+  workflow_dispatch: {}             # démarrage à la main
 permissions:
   contents: write
 concurrency:
@@ -13,17 +15,23 @@ concurrency:
 jobs:
   boc:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - name: Outils PDF
         run: command -v pdftotext >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
-      - name: Lire le BOC et chercher les rapports annoncés
-        run: python3 scripts/fetch_boc.py
-      - name: Archiver les BOC des 31 derniers jours (téléchargement dans l'application)
-        run: python3 scripts/fetch_boc_archive.py || echo "archive BOC non mise à jour"
-      - name: Enregistrer
+      - name: Chercher le BOC du jour jusqu'à son traitement (21h00 au plus tard)
         run: |
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
-          git add cours.json boc publications
-          git diff --cached --quiet || (git commit -m "BOC $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push)
+          [ "$(python3 scripts/horaire.py)" = "FERIE" ] && { echo "Marché fermé aujourd'hui : pas de BOC"; exit 0; }
+          while true; do
+            python3 scripts/fetch_boc.py || echo "Lecture du BOC échouée, on réessaie"
+            python3 scripts/fetch_boc_archive.py || echo "archive BOC non mise à jour"
+            git add cours.json boc publications
+            git diff --cached --quiet || (git commit -q -m "BOC $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push -q) || echo "Enregistrement échoué, on réessaie"
+            auj=$(date -u +%Y%m%d)
+            grep -q "$auj" boc/etat.json && { echo "BOC du $auj traité"; break; }
+            [ "$(date -u +%H%M)" -ge 2100 ] && { echo "21h00 : BOC du jour introuvable"; break; }
+            sleep 600
+          done
