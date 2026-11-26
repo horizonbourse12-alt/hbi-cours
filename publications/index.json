@@ -1,5 +1,2189 @@
 [
  {
+  "societe": "AFRICA GLOBAL LOGISTICS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/AFRICA-GLOBAL-LOGISTICS-CI_T1-2024.pdf",
+  "ko": 6430
+ },
+ {
+  "societe": "AFRICA GLOBAL LOGISTICS CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "27/11/2024",
+  "fichier": "publications/rapports/AFRICA-GLOBAL-LOGISTICS-CI_T3-2024.pdf",
+  "ko": 967
+ },
+ {
+  "societe": "AFRICA GLOBAL LOGISTICS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "15/05/2025",
+  "fichier": "publications/rapports/AFRICA-GLOBAL-LOGISTICS-CI_T1-2025.pdf",
+  "ko": 538
+ },
+ {
+  "societe": "AFRICA GLOBAL LOGISTICS CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "05/12/2025",
+  "fichier": "publications/rapports/AFRICA-GLOBAL-LOGISTICS-CI_T3-2025.pdf",
+  "ko": 983
+ },
+ {
+  "societe": "AFRICA GLOBAL LOGISTICS CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "17/09/2026",
+  "fichier": "publications/rapports/AFRICA-GLOBAL-LOGISTICS-CI_Annuel-2025.pdf",
+  "ko": 2377
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/BERNABE-CI_T1-2024.pdf",
+  "ko": 133
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "20/11/2024",
+  "fichier": "publications/rapports/BERNABE-CI_T3-2024.pdf",
+  "ko": 118
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "20/11/2024",
+  "fichier": "publications/rapports/BERNABE-CI_S1-2024.pdf",
+  "ko": 137
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/BERNABE-CI_Annuel-2024.pdf",
+  "ko": 56
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "02/05/2025",
+  "fichier": "publications/rapports/BERNABE-CI_T1-2025.pdf",
+  "ko": 132
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/BERNABE-CI_T3-2025.pdf",
+  "ko": 464
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/BERNABE-CI_S1-2025.pdf",
+  "ko": 170
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/BERNABE-CI_Annuel-2025.pdf",
+  "ko": 308
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/BERNABE-CI_T1-2026.pdf",
+  "ko": 497
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "27/10/2026",
+  "fichier": "publications/rapports/BERNABE-CI_T3-2026.pdf",
+  "ko": 497
+ },
+ {
+  "societe": "BERNABE CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "27/10/2026",
+  "fichier": "publications/rapports/BERNABE-CI_S1-2026.pdf",
+  "ko": 256
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/BICI-CI_T1-2024.pdf",
+  "ko": 132
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/BICI-CI_S1-2024.pdf",
+  "ko": 219
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "28/11/2024",
+  "fichier": "publications/rapports/BICI-CI_T3-2024.pdf",
+  "ko": 179
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "28/03/2025",
+  "fichier": "publications/rapports/BICI-CI_Annuel-2024.pdf",
+  "ko": 1340
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/BICI-CI_T1-2025.pdf",
+  "ko": 258
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "21/10/2025",
+  "fichier": "publications/rapports/BICI-CI_S1-2025.pdf",
+  "ko": 209
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/BICI-CI_T3-2025.pdf",
+  "ko": 269
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "17/04/2026",
+  "fichier": "publications/rapports/BICI-CI_Annuel-2025.pdf",
+  "ko": 3749
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/BICI-CI_T1-2026.pdf",
+  "ko": 268
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "13/10/2026",
+  "fichier": "publications/rapports/BICI-CI_S1-2026.pdf",
+  "ko": 433
+ },
+ {
+  "societe": "BICI CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/BICI-CI_T3-2026.pdf",
+  "ko": 352
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "27/06/2025",
+  "fichier": "publications/rapports/BIIC-BN_Annuel-2024.pdf",
+  "ko": 1516
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités — 2e trimestre 2025",
+  "periode": "T2 2025",
+  "date": "04/12/2025",
+  "fichier": "publications/rapports/BIIC-BN_T2-2025.pdf",
+  "ko": 139
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "04/12/2025",
+  "fichier": "publications/rapports/BIIC-BN_T3-2025.pdf",
+  "ko": 145
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "19/06/2026",
+  "fichier": "publications/rapports/BIIC-BN_Annuel-2025.pdf",
+  "ko": 909
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "22/07/2026",
+  "fichier": "publications/rapports/BIIC-BN_T1-2026.pdf",
+  "ko": 562
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "21/09/2026",
+  "fichier": "publications/rapports/BIIC-BN_S1-2026.pdf",
+  "ko": 1195
+ },
+ {
+  "societe": "BIIC BN",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "10/11/2026",
+  "fichier": "publications/rapports/BIIC-BN_T3-2026.pdf",
+  "ko": 359
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/BOA-BF_T1-2024.pdf",
+  "ko": 231
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "24/10/2024",
+  "fichier": "publications/rapports/BOA-BF_S1-2024.pdf",
+  "ko": 812
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/BOA-BF_T3-2024.pdf",
+  "ko": 840
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "16/04/2025",
+  "fichier": "publications/rapports/BOA-BF_Annuel-2024.pdf",
+  "ko": 775
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 2e semestre 2024",
+  "periode": "S2 2024",
+  "date": "16/04/2025",
+  "fichier": "publications/rapports/BOA-BF_S2-2024.pdf",
+  "ko": 806
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "29/04/2025",
+  "fichier": "publications/rapports/BOA-BF_T1-2025.pdf",
+  "ko": 480
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "22/09/2025",
+  "fichier": "publications/rapports/BOA-BF_S1-2025.pdf",
+  "ko": 961
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/BOA-BF_T3-2025.pdf",
+  "ko": 548
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "23/03/2026",
+  "fichier": "publications/rapports/BOA-BF_Annuel-2025.pdf",
+  "ko": 804
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 2e semestre 2025",
+  "periode": "S2 2025",
+  "date": "23/03/2026",
+  "fichier": "publications/rapports/BOA-BF_S2-2025.pdf",
+  "ko": 364
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/BOA-BF_T1-2026.pdf",
+  "ko": 234
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "05/08/2026",
+  "fichier": "publications/rapports/BOA-BF_S1-2026.pdf",
+  "ko": 758
+ },
+ {
+  "societe": "BOA BF",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "26/10/2026",
+  "fichier": "publications/rapports/BOA-BF_T3-2026.pdf",
+  "ko": 656
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "12/06/2024",
+  "fichier": "publications/rapports/BOA-BN_T1-2024.pdf",
+  "ko": 195
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "25/11/2024",
+  "fichier": "publications/rapports/BOA-BN_S1-2024.pdf",
+  "ko": 256
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "03/12/2024",
+  "fichier": "publications/rapports/BOA-BN_T3-2024.pdf",
+  "ko": 180
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "22/04/2025",
+  "fichier": "publications/rapports/BOA-BN_Annuel-2024.pdf",
+  "ko": 912
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "12/05/2025",
+  "fichier": "publications/rapports/BOA-BN_T1-2025.pdf",
+  "ko": 243
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/BOA-BN_S1-2025.pdf",
+  "ko": 335
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "05/12/2025",
+  "fichier": "publications/rapports/BOA-BN_T3-2025.pdf",
+  "ko": 221
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "15/04/2026",
+  "fichier": "publications/rapports/BOA-BN_Annuel-2025.pdf",
+  "ko": 750
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "04/05/2026",
+  "fichier": "publications/rapports/BOA-BN_T1-2026.pdf",
+  "ko": 242
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "23/07/2026",
+  "fichier": "publications/rapports/BOA-BN_S1-2026.pdf",
+  "ko": 351
+ },
+ {
+  "societe": "BOA BN",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/BOA-BN_T3-2026.pdf",
+  "ko": 367
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "14/05/2024",
+  "fichier": "publications/rapports/BOA-CI_T1-2024.pdf",
+  "ko": 230
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "16/10/2024",
+  "fichier": "publications/rapports/BOA-CI_S1-2024.pdf",
+  "ko": 237
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "20/11/2024",
+  "fichier": "publications/rapports/BOA-CI_T3-2024.pdf",
+  "ko": 188
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "02/04/2025",
+  "fichier": "publications/rapports/BOA-CI_Annuel-2024.pdf",
+  "ko": 59
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "16/05/2025",
+  "fichier": "publications/rapports/BOA-CI_T1-2025.pdf",
+  "ko": 182
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "06/11/2025",
+  "fichier": "publications/rapports/BOA-CI_S1-2025.pdf",
+  "ko": 884
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "01/12/2025",
+  "fichier": "publications/rapports/BOA-CI_T3-2025.pdf",
+  "ko": 232
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "01/06/2026",
+  "fichier": "publications/rapports/BOA-CI_T1-2026.pdf",
+  "ko": 220
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "01/10/2026",
+  "fichier": "publications/rapports/BOA-CI_S1-2026.pdf",
+  "ko": 275
+ },
+ {
+  "societe": "BOA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/BOA-CI_T3-2026.pdf",
+  "ko": 264
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "05/06/2024",
+  "fichier": "publications/rapports/BOA-ML_T1-2024.pdf",
+  "ko": 702
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "02/10/2024",
+  "fichier": "publications/rapports/BOA-ML_S1-2024.pdf",
+  "ko": 709
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "19/03/2025",
+  "fichier": "publications/rapports/BOA-ML_Annuel-2024.pdf",
+  "ko": 724
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "03/06/2025",
+  "fichier": "publications/rapports/BOA-ML_T1-2025.pdf",
+  "ko": 355
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "19/09/2025",
+  "fichier": "publications/rapports/BOA-ML_S1-2025.pdf",
+  "ko": 858
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "10/11/2025",
+  "fichier": "publications/rapports/BOA-ML_T3-2025.pdf",
+  "ko": 3487
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "24/03/2026",
+  "fichier": "publications/rapports/BOA-ML_Annuel-2025.pdf",
+  "ko": 524
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "23/06/2026",
+  "fichier": "publications/rapports/BOA-ML_T1-2026.pdf",
+  "ko": 424
+ },
+ {
+  "societe": "BOA ML",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "23/09/2026",
+  "fichier": "publications/rapports/BOA-ML_S1-2026.pdf",
+  "ko": 241
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/BOA-NG_T1-2024.pdf",
+  "ko": 545
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "05/11/2024",
+  "fichier": "publications/rapports/BOA-NG_T3-2024.pdf",
+  "ko": 424
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "19/03/2025",
+  "fichier": "publications/rapports/BOA-NG_Annuel-2024.pdf",
+  "ko": 929
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "29/04/2025",
+  "fichier": "publications/rapports/BOA-NG_T1-2025.pdf",
+  "ko": 399
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "02/10/2025",
+  "fichier": "publications/rapports/BOA-NG_S1-2025.pdf",
+  "ko": 434
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "06/11/2025",
+  "fichier": "publications/rapports/BOA-NG_T3-2025.pdf",
+  "ko": 435
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "24/03/2026",
+  "fichier": "publications/rapports/BOA-NG_Annuel-2025.pdf",
+  "ko": 1161
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 2e semestre 2025",
+  "periode": "S2 2025",
+  "date": "29/04/2026",
+  "fichier": "publications/rapports/BOA-NG_S2-2025.pdf",
+  "ko": 456
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/BOA-NG_T1-2026.pdf",
+  "ko": 451
+ },
+ {
+  "societe": "BOA NG",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "26/10/2026",
+  "fichier": "publications/rapports/BOA-NG_T3-2026.pdf",
+  "ko": 427
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "08/05/2024",
+  "fichier": "publications/rapports/BOA-SENEGAL_T1-2024.pdf",
+  "ko": 441
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "21/11/2024",
+  "fichier": "publications/rapports/BOA-SENEGAL_S1-2024.pdf",
+  "ko": 409
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "19/03/2025",
+  "fichier": "publications/rapports/BOA-SENEGAL_Annuel-2024.pdf",
+  "ko": 460
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "23/06/2025",
+  "fichier": "publications/rapports/BOA-SENEGAL_T1-2025.pdf",
+  "ko": 392
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "18/09/2025",
+  "fichier": "publications/rapports/BOA-SENEGAL_S1-2025.pdf",
+  "ko": 393
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "17/11/2025",
+  "fichier": "publications/rapports/BOA-SENEGAL_T3-2025.pdf",
+  "ko": 374
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "17/03/2026",
+  "fichier": "publications/rapports/BOA-SENEGAL_Annuel-2025.pdf",
+  "ko": 480
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "22/04/2026",
+  "fichier": "publications/rapports/BOA-SENEGAL_T1-2026.pdf",
+  "ko": 452
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "21/09/2026",
+  "fichier": "publications/rapports/BOA-SENEGAL_S1-2026.pdf",
+  "ko": 341
+ },
+ {
+  "societe": "BOA SENEGAL",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "21/10/2026",
+  "fichier": "publications/rapports/BOA-SENEGAL_T3-2026.pdf",
+  "ko": 354
+ },
+ {
+  "societe": "BRIDGE BANK GROUP CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "24/09/2026",
+  "fichier": "publications/rapports/BRIDGE-BANK-GROUP-CI_S1-2026.pdf",
+  "ko": 9674
+ },
+ {
+  "societe": "BRIDGE BANK GROUP CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "28/10/2026",
+  "fichier": "publications/rapports/BRIDGE-BANK-GROUP-CI_T3-2026.pdf",
+  "ko": 499
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_S1-2024.pdf",
+  "ko": 844
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_T1-2024.pdf",
+  "ko": 377
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "16/05/2025",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_Annuel-2024.pdf",
+  "ko": 146
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "16/05/2025",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_T1-2025.pdf",
+  "ko": 356
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_S1-2025.pdf",
+  "ko": 1193
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "22/12/2025",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_T3-2025.pdf",
+  "ko": 493
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "13/07/2026",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_Annuel-2025.pdf",
+  "ko": 1315
+ },
+ {
+  "societe": "CFAO MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/CFAO-MOTORS-CI_S1-2026.pdf",
+  "ko": 674
+ },
+ {
+  "societe": "CIE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/CIE-CI_T1-2024.pdf",
+  "ko": 321
+ },
+ {
+  "societe": "CIE CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/CIE-CI_S1-2024.pdf",
+  "ko": 736
+ },
+ {
+  "societe": "CIE CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/CIE-CI_S1-2025.pdf",
+  "ko": 778
+ },
+ {
+  "societe": "CIE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "20/05/2026",
+  "fichier": "publications/rapports/CIE-CI_Annuel-2025.pdf",
+  "ko": 536
+ },
+ {
+  "societe": "CIE CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "29/10/2026",
+  "fichier": "publications/rapports/CIE-CI_S1-2026.pdf",
+  "ko": 780
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T1-2024.pdf",
+  "ko": 761
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "20/08/2024",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_S1-2024.pdf",
+  "ko": 1513
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T3-2024.pdf",
+  "ko": 579
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_Annuel-2024.pdf",
+  "ko": 664
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T1-2025.pdf",
+  "ko": 529
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "25/08/2025",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_S1-2025.pdf",
+  "ko": 1723
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T3-2025.pdf",
+  "ko": 1338
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T1-2026.pdf",
+  "ko": 1108
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "07/07/2026",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_Annuel-2025.pdf",
+  "ko": 12893
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2026",
+  "periode": "Exercice 2026",
+  "date": "31/08/2026",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_Annuel-2026.pdf",
+  "ko": 2496
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "31/08/2026",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_S1-2026.pdf",
+  "ko": 1196
+ },
+ {
+  "societe": "CORIS BANK INTERNATIONAL",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "29/10/2026",
+  "fichier": "publications/rapports/CORIS-BANK-INTERNATIONAL_T3-2026.pdf",
+  "ko": 4589
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T1-2024.pdf",
+  "ko": 190
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "19/09/2024",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_S1-2024.pdf",
+  "ko": 266
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T3-2024.pdf",
+  "ko": 184
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "25/03/2025",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_Annuel-2024.pdf",
+  "ko": 1806
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "25/04/2025",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T1-2025.pdf",
+  "ko": 651
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "02/09/2025",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_S1-2025.pdf",
+  "ko": 1468
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "28/10/2025",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T3-2025.pdf",
+  "ko": 818
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "14/04/2026",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_Annuel-2025.pdf",
+  "ko": 2309
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "29/04/2026",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T1-2026.pdf",
+  "ko": 1199
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "09/09/2026",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_S1-2026.pdf",
+  "ko": 1662
+ },
+ {
+  "societe": "ECOBANK COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "27/10/2026",
+  "fichier": "publications/rapports/ECOBANK-COTE-D-IVOIRE_T3-2026.pdf",
+  "ko": 1329
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "21/04/2024",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_T1-2024.pdf",
+  "ko": 176
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/07/2024",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_S1-2024.pdf",
+  "ko": 237
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "29/10/2024",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_T3-2024.pdf",
+  "ko": 192
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "28/03/2025",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_Annuel-2024.pdf",
+  "ko": 667
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "29/07/2025",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_S1-2025.pdf",
+  "ko": 300
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "28/10/2025",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_T3-2025.pdf",
+  "ko": 252
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "13/04/2026",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_Annuel-2025.pdf",
+  "ko": 389
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "29/04/2026",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_T1-2026.pdf",
+  "ko": 282
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "29/07/2026",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_S1-2026.pdf",
+  "ko": 340
+ },
+ {
+  "societe": "ECOBANK TRANS. INCORP. TG",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "28/10/2026",
+  "fichier": "publications/rapports/ECOBANK-TRANS-INCORP-TG_T3-2026.pdf",
+  "ko": 395
+ },
+ {
+  "societe": "ERIUM CI (Ex AIR LIQUIDE CI)",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "19/12/2025",
+  "fichier": "publications/rapports/ERIUM-CI-Ex-AIR-LIQUIDE-CI_T1-2025.pdf",
+  "ko": 185
+ },
+ {
+  "societe": "ERIUM CI (Ex AIR LIQUIDE CI)",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/12/2025",
+  "fichier": "publications/rapports/ERIUM-CI-Ex-AIR-LIQUIDE-CI_S1-2025.pdf",
+  "ko": 351
+ },
+ {
+  "societe": "ERIUM CI (Ex AIR LIQUIDE CI)",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/12/2025",
+  "fichier": "publications/rapports/ERIUM-CI-Ex-AIR-LIQUIDE-CI_T3-2025.pdf",
+  "ko": 181
+ },
+ {
+  "societe": "ERIUM CI (Ex AIR LIQUIDE CI)",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "26/06/2026",
+  "fichier": "publications/rapports/ERIUM-CI-Ex-AIR-LIQUIDE-CI_Annuel-2025.pdf",
+  "ko": 462
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "13/05/2024",
+  "fichier": "publications/rapports/FILTISAC-CI_T1-2024.pdf",
+  "ko": 561
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/FILTISAC-CI_T3-2024.pdf",
+  "ko": 188
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/FILTISAC-CI_S1-2024.pdf",
+  "ko": 177
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "23/05/2025",
+  "fichier": "publications/rapports/FILTISAC-CI_Annuel-2024.pdf",
+  "ko": 251
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "23/05/2025",
+  "fichier": "publications/rapports/FILTISAC-CI_T1-2025.pdf",
+  "ko": 118
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/FILTISAC-CI_T3-2025.pdf",
+  "ko": 153
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/FILTISAC-CI_S1-2025.pdf",
+  "ko": 138
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "10/06/2026",
+  "fichier": "publications/rapports/FILTISAC-CI_Annuel-2025.pdf",
+  "ko": 255
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "10/06/2026",
+  "fichier": "publications/rapports/FILTISAC-CI_T1-2026.pdf",
+  "ko": 131
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/FILTISAC-CI_S1-2026.pdf",
+  "ko": 157
+ },
+ {
+  "societe": "FILTISAC CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "05/11/2026",
+  "fichier": "publications/rapports/FILTISAC-CI_T3-2026.pdf",
+  "ko": 155
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "02/06/2025",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_Annuel-2024.pdf",
+  "ko": 1290
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "02/06/2025",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_T1-2025.pdf",
+  "ko": 3257
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "26/09/2025",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_S1-2025.pdf",
+  "ko": 4684
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "27/10/2025",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_T3-2025.pdf",
+  "ko": 583
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_Annuel-2025.pdf",
+  "ko": 1297
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "07/05/2026",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_T1-2026.pdf",
+  "ko": 661
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "31/07/2026",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_S1-2026.pdf",
+  "ko": 934
+ },
+ {
+  "societe": "LOTERIE NATIONALE DU BENIN",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "28/10/2026",
+  "fichier": "publications/rapports/LOTERIE-NATIONALE-DU-BENIN_T3-2026.pdf",
+  "ko": 345
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "15/10/2024",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T1-2024.pdf",
+  "ko": 526
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "29/10/2024",
+  "fichier": "publications/rapports/NEI-CEDA-CI_S1-2024.pdf",
+  "ko": 536
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "11/12/2024",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T3-2024.pdf",
+  "ko": 517
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "09/05/2025",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T1-2025.pdf",
+  "ko": 521
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "13/06/2025",
+  "fichier": "publications/rapports/NEI-CEDA-CI_Annuel-2024.pdf",
+  "ko": 1042
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "04/11/2025",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T3-2025.pdf",
+  "ko": 793
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "23/04/2026",
+  "fichier": "publications/rapports/NEI-CEDA-CI_Annuel-2025.pdf",
+  "ko": 923
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "23/04/2026",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T1-2026.pdf",
+  "ko": 697
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/NEI-CEDA-CI_S1-2026.pdf",
+  "ko": 845
+ },
+ {
+  "societe": "NEI-CEDA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/NEI-CEDA-CI_T3-2026.pdf",
+  "ko": 897
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/NESTLE-CI_T1-2024.pdf",
+  "ko": 355
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "28/10/2024",
+  "fichier": "publications/rapports/NESTLE-CI_S1-2024.pdf",
+  "ko": 444
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "29/10/2024",
+  "fichier": "publications/rapports/NESTLE-CI_T3-2024.pdf",
+  "ko": 363
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "02/05/2025",
+  "fichier": "publications/rapports/NESTLE-CI_T1-2025.pdf",
+  "ko": 383
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "05/05/2025",
+  "fichier": "publications/rapports/NESTLE-CI_Annuel-2024.pdf",
+  "ko": 647
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/NESTLE-CI_S1-2025.pdf",
+  "ko": 335
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/NESTLE-CI_T3-2025.pdf",
+  "ko": 331
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/NESTLE-CI_Annuel-2025.pdf",
+  "ko": 269
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/NESTLE-CI_T1-2026.pdf",
+  "ko": 256
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "22/10/2026",
+  "fichier": "publications/rapports/NESTLE-CI_S1-2026.pdf",
+  "ko": 234
+ },
+ {
+  "societe": "NESTLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "22/10/2026",
+  "fichier": "publications/rapports/NESTLE-CI_T3-2026.pdf",
+  "ko": 246
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "29/04/2024",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T1-2024.pdf",
+  "ko": 1658
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "22/08/2024",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_S1-2024.pdf",
+  "ko": 868
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "23/10/2024",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T3-2024.pdf",
+  "ko": 675
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "25/03/2025",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_Annuel-2024.pdf",
+  "ko": 1480
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "29/04/2025",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T1-2025.pdf",
+  "ko": 1134
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "25/08/2025",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_S1-2025.pdf",
+  "ko": 1100
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T3-2025.pdf",
+  "ko": 1140
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T1-2026.pdf",
+  "ko": 617
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "23/10/2026",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_S1-2026.pdf",
+  "ko": 1921
+ },
+ {
+  "societe": "NSIA BANQUE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/NSIA-BANQUE-COTE-D-IVOIRE_T3-2026.pdf",
+  "ko": 1130
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "26/04/2024",
+  "fichier": "publications/rapports/ONATEL-BF_T1-2024.pdf",
+  "ko": 1015
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "11/09/2024",
+  "fichier": "publications/rapports/ONATEL-BF_S1-2024.pdf",
+  "ko": 4203
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "04/11/2024",
+  "fichier": "publications/rapports/ONATEL-BF_T3-2024.pdf",
+  "ko": 2197
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "02/05/2025",
+  "fichier": "publications/rapports/ONATEL-BF_T1-2025.pdf",
+  "ko": 2246
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "18/07/2025",
+  "fichier": "publications/rapports/ONATEL-BF_Annuel-2024.pdf",
+  "ko": 5428
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "03/09/2025",
+  "fichier": "publications/rapports/ONATEL-BF_S1-2025.pdf",
+  "ko": 3515
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/ONATEL-BF_T3-2025.pdf",
+  "ko": 2263
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/ONATEL-BF_T1-2026.pdf",
+  "ko": 238
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "11/06/2026",
+  "fichier": "publications/rapports/ONATEL-BF_Annuel-2025.pdf",
+  "ko": 548
+ },
+ {
+  "societe": "ONATEL BF",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "23/10/2026",
+  "fichier": "publications/rapports/ONATEL-BF_T3-2026.pdf",
+  "ko": 1129
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/09/2024",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_S1-2024.pdf",
+  "ko": 1993
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "25/10/2024",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_T3-2024.pdf",
+  "ko": 166
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "28/04/2025",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_T1-2025.pdf",
+  "ko": 169
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_Annuel-2024.pdf",
+  "ko": 1517
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "22/09/2025",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_S1-2025.pdf",
+  "ko": 592
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "22/10/2025",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_T3-2025.pdf",
+  "ko": 173
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_T1-2026.pdf",
+  "ko": 249
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "04/05/2026",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_Annuel-2025.pdf",
+  "ko": 120
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "09/10/2026",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_S1-2026.pdf",
+  "ko": 981
+ },
+ {
+  "societe": "ORAGROUP TOGO",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "12/11/2026",
+  "fichier": "publications/rapports/ORAGROUP-TOGO_T3-2026.pdf",
+  "ko": 180
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T1-2024.pdf",
+  "ko": 239
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "25/10/2024",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_S1-2024.pdf",
+  "ko": 240
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "28/10/2024",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T3-2024.pdf",
+  "ko": 243
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "11/04/2025",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T1-2025.pdf",
+  "ko": 239
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "16/04/2025",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_Annuel-2024.pdf",
+  "ko": 5771
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "23/10/2025",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_S1-2025.pdf",
+  "ko": 276
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "24/10/2025",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T3-2025.pdf",
+  "ko": 258
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T1-2026.pdf",
+  "ko": 259
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "08/06/2026",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_Annuel-2025.pdf",
+  "ko": 533
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "08/10/2026",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_S1-2026.pdf",
+  "ko": 357
+ },
+ {
+  "societe": "ORANGE COTE D'IVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "28/10/2026",
+  "fichier": "publications/rapports/ORANGE-COTE-D-IVOIRE_T3-2026.pdf",
+  "ko": 252
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "15/10/2024",
+  "fichier": "publications/rapports/PALM-CI_S1-2024.pdf",
+  "ko": 186
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "05/11/2024",
+  "fichier": "publications/rapports/PALM-CI_T3-2024.pdf",
+  "ko": 63
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "18/04/2025",
+  "fichier": "publications/rapports/PALM-CI_T1-2025.pdf",
+  "ko": 71
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "26/06/2025",
+  "fichier": "publications/rapports/PALM-CI_Annuel-2024.pdf",
+  "ko": 14968
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/PALM-CI_T3-2025.pdf",
+  "ko": 105
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "23/03/2026",
+  "fichier": "publications/rapports/PALM-CI_Annuel-2025.pdf",
+  "ko": 310
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "29/04/2026",
+  "fichier": "publications/rapports/PALM-CI_T1-2026.pdf",
+  "ko": 111
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "07/10/2026",
+  "fichier": "publications/rapports/PALM-CI_S1-2026.pdf",
+  "ko": 90
+ },
+ {
+  "societe": "PALM CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "27/10/2026",
+  "fichier": "publications/rapports/PALM-CI_T3-2026.pdf",
+  "ko": 95
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "02/05/2025",
+  "fichier": "publications/rapports/SAFCA-CI_T1-2025.pdf",
+  "ko": 452
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "03/07/2025",
+  "fichier": "publications/rapports/SAFCA-CI_Annuel-2024.pdf",
+  "ko": 5224
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités — 2e trimestre 2025",
+  "periode": "T2 2025",
+  "date": "29/07/2025",
+  "fichier": "publications/rapports/SAFCA-CI_T2-2025.pdf",
+  "ko": 317
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "11/05/2026",
+  "fichier": "publications/rapports/SAFCA-CI_T1-2026.pdf",
+  "ko": 161
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "09/06/2026",
+  "fichier": "publications/rapports/SAFCA-CI_Annuel-2025.pdf",
+  "ko": 207
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités — 2e trimestre 2026",
+  "periode": "T2 2026",
+  "date": "03/09/2026",
+  "fichier": "publications/rapports/SAFCA-CI_T2-2026.pdf",
+  "ko": 162
+ },
+ {
+  "societe": "SAFCA CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/SAFCA-CI_T3-2026.pdf",
+  "ko": 82
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "02/05/2024",
+  "fichier": "publications/rapports/SAPH-CI_T1-2024.pdf",
+  "ko": 251
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SAPH-CI_T3-2024.pdf",
+  "ko": 227
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "19/03/2025",
+  "fichier": "publications/rapports/SAPH-CI_Annuel-2024.pdf",
+  "ko": 705
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "25/04/2025",
+  "fichier": "publications/rapports/SAPH-CI_T1-2025.pdf",
+  "ko": 147
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "03/11/2025",
+  "fichier": "publications/rapports/SAPH-CI_T3-2025.pdf",
+  "ko": 542
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "18/03/2026",
+  "fichier": "publications/rapports/SAPH-CI_Annuel-2025.pdf",
+  "ko": 668
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "29/04/2026",
+  "fichier": "publications/rapports/SAPH-CI_T1-2026.pdf",
+  "ko": 117
+ },
+ {
+  "societe": "SAPH CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "13/10/2026",
+  "fichier": "publications/rapports/SAPH-CI_T3-2026.pdf",
+  "ko": 448
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "25/04/2024",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T1-2024.pdf",
+  "ko": 66
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_S1-2024.pdf",
+  "ko": 362
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T3-2024.pdf",
+  "ko": 293
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_Annuel-2024.pdf",
+  "ko": 908
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T1-2025.pdf",
+  "ko": 151
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "13/10/2025",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_S1-2025.pdf",
+  "ko": 713
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "13/10/2025",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T3-2025.pdf",
+  "ko": 311
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "27/04/2026",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_Annuel-2025.pdf",
+  "ko": 133
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "27/04/2026",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T1-2026.pdf",
+  "ko": 726
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "16/10/2026",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_S1-2026.pdf",
+  "ko": 607
+ },
+ {
+  "societe": "SERVAIR ABIDJAN CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "16/10/2026",
+  "fichier": "publications/rapports/SERVAIR-ABIDJAN-CI_T3-2026.pdf",
+  "ko": 584
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "28/10/2024",
+  "fichier": "publications/rapports/SETAO-CI_S1-2024.pdf",
+  "ko": 171
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "28/10/2024",
+  "fichier": "publications/rapports/SETAO-CI_T3-2024.pdf",
+  "ko": 171
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "10/04/2025",
+  "fichier": "publications/rapports/SETAO-CI_Annuel-2024.pdf",
+  "ko": 198
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/SETAO-CI_T3-2025.pdf",
+  "ko": 262
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/SETAO-CI_S1-2025.pdf",
+  "ko": 262
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "13/04/2026",
+  "fichier": "publications/rapports/SETAO-CI_Annuel-2025.pdf",
+  "ko": 644
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SETAO-CI_S1-2026.pdf",
+  "ko": 360
+ },
+ {
+  "societe": "SETAO CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SETAO-CI_T3-2026.pdf",
+  "ko": 364
+ },
+ {
   "societe": "SGBCI",
   "titre": "Rapport d'activités — 1er trimestre 2021",
   "periode": "T1 2021",
@@ -182,5 +2366,941 @@
   "date": "30/10/2026",
   "fichier": "publications/rapports/SGBCI_T3-2026.pdf",
   "ko": 439
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "26/04/2024",
+  "fichier": "publications/rapports/SICABLE-CI_T1-2024.pdf",
+  "ko": 147
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/SICABLE-CI_T3-2024.pdf",
+  "ko": 109
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/SICABLE-CI_S1-2024.pdf",
+  "ko": 88
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "15/05/2025",
+  "fichier": "publications/rapports/SICABLE-CI_T1-2025.pdf",
+  "ko": 327
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "03/09/2025",
+  "fichier": "publications/rapports/SICABLE-CI_Annuel-2024.pdf",
+  "ko": 94
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/SICABLE-CI_S1-2025.pdf",
+  "ko": 192
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/SICABLE-CI_T3-2025.pdf",
+  "ko": 190
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "11/03/2026",
+  "fichier": "publications/rapports/SICABLE-CI_Annuel-2025.pdf",
+  "ko": 102
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "20/04/2026",
+  "fichier": "publications/rapports/SICABLE-CI_T1-2026.pdf",
+  "ko": 301
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SICABLE-CI_T3-2026.pdf",
+  "ko": 379
+ },
+ {
+  "societe": "SICABLE CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SICABLE-CI_S1-2026.pdf",
+  "ko": 386
+ },
+ {
+  "societe": "SICOR CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "12/06/2026",
+  "fichier": "publications/rapports/SICOR-CI_Annuel-2024.pdf",
+  "ko": 6612
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/SITAB-CI_T1-2024.pdf",
+  "ko": 398
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SITAB-CI_S1-2024.pdf",
+  "ko": 198
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "07/05/2025",
+  "fichier": "publications/rapports/SITAB-CI_Annuel-2024.pdf",
+  "ko": 127
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "07/05/2025",
+  "fichier": "publications/rapports/SITAB-CI_T1-2025.pdf",
+  "ko": 443
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/SITAB-CI_S1-2025.pdf",
+  "ko": 203
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/SITAB-CI_T3-2025.pdf",
+  "ko": 194
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/SITAB-CI_T1-2026.pdf",
+  "ko": 412
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "15/07/2026",
+  "fichier": "publications/rapports/SITAB-CI_Annuel-2025.pdf",
+  "ko": 1909
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 2e trimestre 2026",
+  "periode": "T2 2026",
+  "date": "17/08/2026",
+  "fichier": "publications/rapports/SITAB-CI_T2-2026.pdf",
+  "ko": 657
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SITAB-CI_S1-2026.pdf",
+  "ko": 858
+ },
+ {
+  "societe": "SITAB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SITAB-CI_T3-2026.pdf",
+  "ko": 711
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "13/05/2024",
+  "fichier": "publications/rapports/SMB-CI_T1-2024.pdf",
+  "ko": 100
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/SMB-CI_S1-2024.pdf",
+  "ko": 91
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "30/10/2024",
+  "fichier": "publications/rapports/SMB-CI_T3-2024.pdf",
+  "ko": 77
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "29/04/2025",
+  "fichier": "publications/rapports/SMB-CI_T1-2025.pdf",
+  "ko": 118
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "03/09/2025",
+  "fichier": "publications/rapports/SMB-CI_Annuel-2024.pdf",
+  "ko": 207
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/SMB-CI_S1-2025.pdf",
+  "ko": 329
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "29/10/2025",
+  "fichier": "publications/rapports/SMB-CI_T3-2025.pdf",
+  "ko": 308
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "12/05/2026",
+  "fichier": "publications/rapports/SMB-CI_Annuel-2025.pdf",
+  "ko": 432
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SMB-CI_S1-2026.pdf",
+  "ko": 162
+ },
+ {
+  "societe": "SMB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SMB-CI_T3-2026.pdf",
+  "ko": 135
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "05/06/2024",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T1-2024.pdf",
+  "ko": 113
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "30/09/2024",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_S1-2024.pdf",
+  "ko": 1345
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T3-2024.pdf",
+  "ko": 636
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "05/03/2025",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_Annuel-2024.pdf",
+  "ko": 1971
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "28/04/2025",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T1-2025.pdf",
+  "ko": 562
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "09/09/2025",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_S1-2025.pdf",
+  "ko": 2869
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T3-2025.pdf",
+  "ko": 533
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "21/04/2026",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_Annuel-2025.pdf",
+  "ko": 2521
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "06/05/2026",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T1-2026.pdf",
+  "ko": 4149
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "28/09/2026",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_S1-2026.pdf",
+  "ko": 2311
+ },
+ {
+  "societe": "SOCIETE IVOIRIENNE DE BANQUE",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/SOCIETE-IVOIRIENNE-DE-BANQUE_T3-2026.pdf",
+  "ko": 120
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/SODE-CI_S1-2024.pdf",
+  "ko": 271
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/SODE-CI_Annuel-2024.pdf",
+  "ko": 1784
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "30/04/2025",
+  "fichier": "publications/rapports/SODE-CI_T1-2025.pdf",
+  "ko": 537
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/SODE-CI_S1-2025.pdf",
+  "ko": 112
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "27/04/2026",
+  "fichier": "publications/rapports/SODE-CI_Annuel-2025.pdf",
+  "ko": 1336
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "27/04/2026",
+  "fichier": "publications/rapports/SODE-CI_T1-2026.pdf",
+  "ko": 970
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SODE-CI_S1-2026.pdf",
+  "ko": 617
+ },
+ {
+  "societe": "SODE CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SODE-CI_T3-2026.pdf",
+  "ko": 815
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "",
+  "fichier": "publications/rapports/SOGB-CI_T1-2025.pdf",
+  "ko": 547
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "04/12/2024",
+  "fichier": "publications/rapports/SOGB-CI_T3-2024.pdf",
+  "ko": 449
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "16/06/2025",
+  "fichier": "publications/rapports/SOGB-CI_Annuel-2024.pdf",
+  "ko": 609
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "28/10/2025",
+  "fichier": "publications/rapports/SOGB-CI_S1-2025.pdf",
+  "ko": 389
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/SOGB-CI_T3-2025.pdf",
+  "ko": 161
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "22/04/2026",
+  "fichier": "publications/rapports/SOGB-CI_Annuel-2025.pdf",
+  "ko": 611
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SOGB-CI_S1-2026.pdf",
+  "ko": 736
+ },
+ {
+  "societe": "SOGB CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SOGB-CI_T3-2026.pdf",
+  "ko": 549
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "25/10/2024",
+  "fichier": "publications/rapports/SOLIBRA-CI_S1-2024.pdf",
+  "ko": 517
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "09/05/2025",
+  "fichier": "publications/rapports/SOLIBRA-CI_Annuel-2024.pdf",
+  "ko": 151
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "28/10/2025",
+  "fichier": "publications/rapports/SOLIBRA-CI_S1-2025.pdf",
+  "ko": 32
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/SOLIBRA-CI_T1-2026.pdf",
+  "ko": 371
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "19/05/2026",
+  "fichier": "publications/rapports/SOLIBRA-CI_Annuel-2025.pdf",
+  "ko": 150
+ },
+ {
+  "societe": "SOLIBRA CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/SOLIBRA-CI_S1-2026.pdf",
+  "ko": 523
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "26/04/2024",
+  "fichier": "publications/rapports/SONATEL-SN_T1-2024.pdf",
+  "ko": 590
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "26/07/2024",
+  "fichier": "publications/rapports/SONATEL-SN_S1-2024.pdf",
+  "ko": 1085
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "25/10/2024",
+  "fichier": "publications/rapports/SONATEL-SN_T3-2024.pdf",
+  "ko": 531
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "18/04/2025",
+  "fichier": "publications/rapports/SONATEL-SN_Annuel-2024.pdf",
+  "ko": 2697
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "18/04/2025",
+  "fichier": "publications/rapports/SONATEL-SN_T1-2025.pdf",
+  "ko": 1132
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "25/07/2025",
+  "fichier": "publications/rapports/SONATEL-SN_S1-2025.pdf",
+  "ko": 1699
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/SONATEL-SN_T3-2025.pdf",
+  "ko": 851
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "17/04/2026",
+  "fichier": "publications/rapports/SONATEL-SN_T1-2026.pdf",
+  "ko": 723
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "24/07/2026",
+  "fichier": "publications/rapports/SONATEL-SN_S1-2026.pdf",
+  "ko": 1080
+ },
+ {
+  "societe": "SONATEL SN",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "29/10/2026",
+  "fichier": "publications/rapports/SONATEL-SN_T3-2026.pdf",
+  "ko": 1145
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "10/05/2024",
+  "fichier": "publications/rapports/SUCRIVOIRE_T1-2024.pdf",
+  "ko": 460
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "28/10/2024",
+  "fichier": "publications/rapports/SUCRIVOIRE_S1-2024.pdf",
+  "ko": 914
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "18/12/2024",
+  "fichier": "publications/rapports/SUCRIVOIRE_T3-2024.pdf",
+  "ko": 183
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "09/05/2025",
+  "fichier": "publications/rapports/SUCRIVOIRE_Annuel-2024.pdf",
+  "ko": 126
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "16/06/2025",
+  "fichier": "publications/rapports/SUCRIVOIRE_T1-2025.pdf",
+  "ko": 650
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "03/11/2025",
+  "fichier": "publications/rapports/SUCRIVOIRE_S1-2025.pdf",
+  "ko": 1006
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "18/05/2026",
+  "fichier": "publications/rapports/SUCRIVOIRE_Annuel-2025.pdf",
+  "ko": 429
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "21/09/2026",
+  "fichier": "publications/rapports/SUCRIVOIRE_T1-2026.pdf",
+  "ko": 904
+ },
+ {
+  "societe": "SUCRIVOIRE",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "02/11/2026",
+  "fichier": "publications/rapports/SUCRIVOIRE_S1-2026.pdf",
+  "ko": 499
+ },
+ {
+  "societe": "TOTALENERGIES MARKETING SN",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "15/06/2026",
+  "fichier": "publications/rapports/TOTALENERGIES-MARKETING-SN_Annuel-2025.pdf",
+  "ko": 8884
+ },
+ {
+  "societe": "TOTALENERGIES MARKETING SN",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/TOTALENERGIES-MARKETING-SN_S1-2026.pdf",
+  "ko": 89
+ },
+ {
+  "societe": "TOTALENERGIES MARKETING SN",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "30/10/2026",
+  "fichier": "publications/rapports/TOTALENERGIES-MARKETING-SN_T3-2026.pdf",
+  "ko": 67
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "04/09/2024",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_T1-2024.pdf",
+  "ko": 526
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_S1-2024.pdf",
+  "ko": 142
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "13/06/2025",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_Annuel-2024.pdf",
+  "ko": 670
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "01/10/2025",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_T1-2025.pdf",
+  "ko": 530
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_S1-2025.pdf",
+  "ko": 795
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "30/10/2025",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_T3-2025.pdf",
+  "ko": 949
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "30/04/2026",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_Annuel-2025.pdf",
+  "ko": 1268
+ },
+ {
+  "societe": "TRACTAFRIC MOTORS CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "29/10/2026",
+  "fichier": "publications/rapports/TRACTAFRIC-MOTORS-CI_S1-2026.pdf",
+  "ko": 609
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "30/04/2024",
+  "fichier": "publications/rapports/UNIWAX-CI_T1-2024.pdf",
+  "ko": 355
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 1er semestre 2024",
+  "periode": "S1 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/UNIWAX-CI_S1-2024.pdf",
+  "ko": 165
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "31/10/2024",
+  "fichier": "publications/rapports/UNIWAX-CI_T3-2024.pdf",
+  "ko": 139
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "29/04/2025",
+  "fichier": "publications/rapports/UNIWAX-CI_T1-2025.pdf",
+  "ko": 227
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "28/08/2025",
+  "fichier": "publications/rapports/UNIWAX-CI_Annuel-2024.pdf",
+  "ko": 503
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/UNIWAX-CI_T3-2025.pdf",
+  "ko": 967
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 1er semestre 2025",
+  "periode": "S1 2025",
+  "date": "31/10/2025",
+  "fichier": "publications/rapports/UNIWAX-CI_S1-2025.pdf",
+  "ko": 852
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "13/07/2026",
+  "fichier": "publications/rapports/UNIWAX-CI_Annuel-2025.pdf",
+  "ko": 713
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 1er semestre 2026",
+  "periode": "S1 2026",
+  "date": "13/07/2026",
+  "fichier": "publications/rapports/UNIWAX-CI_S1-2026.pdf",
+  "ko": 828
+ },
+ {
+  "societe": "UNIWAX CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "28/10/2026",
+  "fichier": "publications/rapports/UNIWAX-CI_T3-2026.pdf",
+  "ko": 826
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 1er trimestre 2024",
+  "periode": "T1 2024",
+  "date": "06/05/2024",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T1-2024.pdf",
+  "ko": 189
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 2e trimestre 2024",
+  "periode": "T2 2024",
+  "date": "02/08/2024",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T2-2024.pdf",
+  "ko": 341
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 3e trimestre 2024",
+  "periode": "T3 2024",
+  "date": "18/11/2024",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T3-2024.pdf",
+  "ko": 389
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2024",
+  "periode": "Exercice 2024",
+  "date": "16/05/2025",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_Annuel-2024.pdf",
+  "ko": 273
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 1er trimestre 2025",
+  "periode": "T1 2025",
+  "date": "16/05/2025",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T1-2025.pdf",
+  "ko": 273
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 2e trimestre 2025",
+  "periode": "T2 2025",
+  "date": "30/09/2025",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T2-2025.pdf",
+  "ko": 284
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 3e trimestre 2025",
+  "periode": "T3 2025",
+  "date": "20/11/2025",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T3-2025.pdf",
+  "ko": 265
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 1er trimestre 2026",
+  "periode": "T1 2026",
+  "date": "05/05/2026",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T1-2026.pdf",
+  "ko": 297
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités annuel et états financiers — exercice 2025",
+  "periode": "Exercice 2025",
+  "date": "03/06/2026",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_Annuel-2025.pdf",
+  "ko": 85
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 2e trimestre 2026",
+  "periode": "T2 2026",
+  "date": "20/07/2026",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T2-2026.pdf",
+  "ko": 295
+ },
+ {
+  "societe": "VIVO ENERGY CI",
+  "titre": "Rapport d'activités — 3e trimestre 2026",
+  "periode": "T3 2026",
+  "date": "17/11/2026",
+  "fichier": "publications/rapports/VIVO-ENERGY-CI_T3-2026.pdf",
+  "ko": 325
  }
 ]
