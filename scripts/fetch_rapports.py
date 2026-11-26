@@ -9,7 +9,7 @@ nommage que l'application : <SOCIETE>_<T1|S1|T3|Annuel>-<année>.pdf.
 Usage : python3 scripts/fetch_rapports.py [NOM_SOCIETE ...]   (sans argument : toutes celles de SOCIETES)
 Stdlib uniquement.
 """
-import json, os, re, sys, time, unicodedata, urllib.request
+import json, os, re, sys, time, unicodedata, urllib.error, urllib.request
 from html.parser import HTMLParser
 
 BASE = "https://www.brvm.org"
@@ -18,11 +18,38 @@ DOSSIER = os.path.join(RACINE, "publications", "rapports")
 INDEX = os.path.join(RACINE, "publications", "index.json")
 UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-rapports/1.0; +https://horizonbourse12-alt.github.io/hbi-cours/)"}
 
-# nom dans l'application -> identifiant de la page BRVM (…/rapports-societe-cotes/<slug>)
+# nom dans l'application -> page BRVM (…/rapports-societe-cotes/<slug>) ; "~mot+mot|…" = slug à retrouver dans la liste des émetteurs
 SOCIETES = {
     "SGBCI": "sgci",
+    "NESTLE CI": "nestle-ci", "PALM CI": "palm-ci", "SAPH CI": "saph-ci", "SUCRIVOIRE": "sucrivoire",
+    "SICOR CI": "sicor", "SOLIBRA CI": "solibra", "SOGB CI": "sogb", "SITAB CI": "sitab",
+    "SERVAIR ABIDJAN CI": "servair-abidjan-ci", "BERNABE CI": "bernabe-ci", "CFAO MOTORS CI": "cfao-motors-ci",
+    "LOTERIE NATIONALE DU BENIN": "lnb", "NEI-CEDA CI": "nei-ceda-ci", "SMB CI": "smb",
+    "ECOBANK COTE D'IVOIRE": "ecobank-ci", "SOCIETE IVOIRIENNE DE BANQUE": "sib", "BIIC BN": "biic",
+    "BICI CI": "bici-ci", "BOA BN": "bank-africa-bn", "BOA BF": "bank-africa-bf", "BOA CI": "bank-africa-ci",
+    "BOA ML": "bank-africa-ml", "BOA NG": "bank-africa-ng", "BOA SENEGAL": "bank-africa-sn",
+    "CORIS BANK INTERNATIONAL": "coris-bank-international", "ECOBANK TRANS. INCORP. TG": "ecobank-tg",
+    "NSIA BANQUE COTE D'IVOIRE": "nsbc", "ORAGROUP TOGO": "oragroup", "SAFCA CI": "safca-ci",
+    "BRIDGE BANK GROUP CI": "bbgci", "SICABLE CI": "sicable", "FILTISAC CI": "filtisac-ci",
+    "AFRICA GLOBAL LOGISTICS CI": "bollore-transport-logistics", "EVIOSYS PACKAGING SIEM CI": "crown-siem-ci",
+    "ERIUM CI (Ex AIR LIQUIDE CI)": "air-liquide-ci", "SETAO CI": "setao-ci", "CIE CI": "cie-ci",
+    "SODE CI": "sodeci", "ONATEL BF": "onatel-bf", "ORANGE COTE D'IVOIRE": "orange-ci", "SONATEL SN": "sonatel",
+    # pages non vérifiées : retrouvées dans la liste des émetteurs de la BRVM
+    "UNILEVER CI": "~unilever", "UNIWAX CI": "~uniwax", "TRACTAFRIC MOTORS CI": "~tractafric",
+    "VIVO ENERGY CI": "~vivo|shell", "TOTALENERGIES MARKETING CI": "~total+ci|total+cote|total+ivoire",
+    "TOTALENERGIES MARKETING SN": "~total+sn|total+senegal",
 }
-ANNEE_MIN = 2021          # l'application ne suit que 2021 et après
+# noms utilisés par le BOC (colonne « Emetteur ») quand ils diffèrent de ceux de l'application
+ALIAS = {"ECOBANK TG": "ECOBANK TRANS. INCORP. TG", "ETI TG": "ECOBANK TRANS. INCORP. TG", "ETI": "ECOBANK TRANS. INCORP. TG",
+         "SG CI": "SGBCI", "SGB CI": "SGBCI", "SGCI": "SGBCI", "SOCIETE GENERALE CI": "SGBCI",
+         "AIR LIQUIDE CI": "ERIUM CI (Ex AIR LIQUIDE CI)", "ERIUM CI": "ERIUM CI (Ex AIR LIQUIDE CI)",
+         "BOLLORE AFRICA LOGISTICS CI": "AFRICA GLOBAL LOGISTICS CI", "CROWN SIEM CI": "EVIOSYS PACKAGING SIEM CI",
+         "SODECI": "SODE CI", "SIB": "SOCIETE IVOIRIENNE DE BANQUE", "LNB": "LOTERIE NATIONALE DU BENIN",
+         "NSBC": "NSIA BANQUE COTE D'IVOIRE", "ORAGROUP": "ORAGROUP TOGO", "ORANGE CI": "ORANGE COTE D'IVOIRE",
+         "ONATEL": "ONATEL BF", "SONATEL": "SONATEL SN", "SICOR": "SICOR CI", "SITAB": "SITAB CI",
+         "SMB": "SMB CI", "SOGB": "SOGB CI", "SOLIBRA": "SOLIBRA CI", "SICABLE": "SICABLE CI",
+         "BBGCI": "BRIDGE BANK GROUP CI", "BIIC": "BIIC BN", "SUCRIVOIRE CI": "SUCRIVOIRE"}
+ANNEE_MIN = time.gmtime().tm_year - 2   # trois dernières années (ex. en 2026 : 2024, 2025, 2026)
 MAX_PAGES = 6
 
 
@@ -34,6 +61,11 @@ def get(url, binaire=False, essais=3):
             with urllib.request.urlopen(req, timeout=60) as r:
                 data = r.read()
             return data if binaire else data.decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 403):
+                raise RuntimeError(f"{url} : HTTP {e.code}")
+            err = e
+            time.sleep(2 + 3 * i)
         except Exception as e:  # noqa: BLE001
             err = e
             time.sleep(2 + 3 * i)
@@ -108,6 +140,45 @@ def cle_date(d):
     return (a, m, j)
 
 
+_LISTE = {}
+
+
+def slug_de(nom):
+    """Page BRVM d'une société ; pour « ~mots », on cherche dans la liste officielle des émetteurs."""
+    v = SOCIETES[nom]
+    if not v.startswith("~"):
+        return v
+    if not _LISTE:
+        for p in range(6):
+            try:
+                html = get(f"{BASE}/fr/rapports-societes-cotees" + (f"?page={p}" if p else ""))
+            except Exception:  # noqa: BLE001
+                break
+            slugs = set(re.findall(r"/fr/rapports-societe-cotes/([a-z0-9\-]+)", html))
+            if not slugs - set(_LISTE):
+                break
+            _LISTE.update({x: 1 for x in slugs})
+    for alt in v[1:].split("|"):
+        mots = alt.split("+")
+        for sl in _LISTE:
+            toks = set(sl.split("-"))
+            if all(any(t == m or (len(m) > 3 and t.startswith(m)) for t in toks) for m in mots):
+                return sl
+    raise RuntimeError(f"page BRVM de {nom} introuvable dans la liste des émetteurs")
+
+
+def resoudre(nom):
+    """Nom de l'application correspondant à un nom lu dans le BOC (ou None)."""
+    cle = re.sub(r"\s+", " ", sans_accents(nom).upper().replace("’", "'")).strip()
+    for k in SOCIETES:
+        if re.sub(r"\s+", " ", sans_accents(k).upper()) == cle:
+            return k
+    for k, v in ALIAS.items():
+        if re.sub(r"\s+", " ", sans_accents(k).upper()) == cle:
+            return v
+    return None
+
+
 def lire_societe(nom, slug):
     trouves = {}
     for p in range(MAX_PAGES):
@@ -116,10 +187,14 @@ def lire_societe(nom, slug):
         pg.feed(get(url))
         if not pg.lignes:
             break
+        anciens = gardes = 0
         for titre, href in pg.lignes:
             c = classer(titre)
+            if c and c[2] < ANNEE_MIN:
+                anciens += 1
             if not c or c[2] < ANNEE_MIN:
                 continue
+            gardes += 1
             code, libelle, an = c
             lien = href if href.startswith("http") else BASE + href
             d = date_du_fichier(href)
@@ -127,6 +202,9 @@ def lire_societe(nom, slug):
             # « annule et remplace » / doublons : on garde la publication la plus récente
             if k not in trouves or cle_date(d) > cle_date(trouves[k]["date"]):
                 trouves[k] = {"code": code, "titre": libelle, "an": an, "date": d, "url": lien}
+        if anciens and not gardes:   # page entièrement antérieure à ANNEE_MIN : inutile de lire les suivantes
+            break
+        time.sleep(1)
     return trouves
 
 
@@ -139,9 +217,8 @@ def main():
     par_fichier = {e["fichier"]: e for e in index}
     nouveaux = 0
     for nom in noms:
-        slug = SOCIETES[nom]
         try:
-            docs = lire_societe(nom, slug)
+            docs = lire_societe(nom, slug_de(nom))
         except Exception as e:  # noqa: BLE001
             print(f"[{nom}] échec : {e}")
             continue

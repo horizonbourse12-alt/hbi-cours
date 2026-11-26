@@ -1,7 +1,7 @@
 name: Rapports BRVM
 on:
   schedule:
-    - cron: "30 18 * * 1-5"   # chaque soir de semaine, 18h30 (heure d'Abidjan = UTC)
+    - cron: "30 6 * * 1"      # filet de sécurité : chaque lundi à 6h30 (le robot du soir cherche les rapports annoncés dans le BOC)
   workflow_dispatch: {}
 permissions:
   contents: write

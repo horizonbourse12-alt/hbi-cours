@@ -168,16 +168,17 @@ def main():
     if st["attente"]:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import fetch_rapports as fr
-        for nom in list(st["attente"]):
-            if nom not in fr.SOCIETES:
-                print(f"[{nom}] rapport annoncé, société pas encore configurée dans fetch_rapports.py")
+        for nom_boc in list(st["attente"]):
+            nom = fr.resoudre(nom_boc)
+            if not nom:
+                print(f"[{nom_boc}] rapport annoncé, société inconnue : à ajouter dans fetch_rapports.py (ALIAS)")
                 continue
             avant = len([f for f in os.listdir(fr.DOSSIER) if f.endswith(".pdf")]) if os.path.isdir(fr.DOSSIER) else 0
             sys.argv = ["fetch_rapports.py", nom]
             fr.main()
             apres = len([f for f in os.listdir(fr.DOSSIER) if f.endswith(".pdf")])
             if apres > avant:
-                del st["attente"][nom]
+                del st["attente"][nom_boc]
     os.makedirs(os.path.dirname(ETAT), exist_ok=True)
     json.dump(st, open(ETAT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
