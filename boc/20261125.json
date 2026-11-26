@@ -1,0 +1,27 @@
+{
+ "date": "25/11/2026",
+ "source": "BOC n° 225",
+ "communiques": [
+  {
+   "emetteur": "NESTLE CI",
+   "numero": "20261125",
+   "nature": "Rapport d'activités du 1er semestre",
+   "objet": "Attestation des Commissaires Aux Comptes sur le rapport d'activités - 1er semestre 2026 - NESTLE CI",
+   "rapport": true
+  },
+  {
+   "emetteur": "ECOBANK TG",
+   "numero": "20261125-1",
+   "nature": "Communiqué de presse",
+   "objet": "Communiqué de Presse - ETI TG",
+   "rapport": false
+  },
+  {
+   "emetteur": "ECOBANK TG",
+   "numero": "20261125-2",
+   "nature": "Communiqué de presse",
+   "objet": "Press Release - ETI TG",
+   "rapport": false
+  }
+ ]
+}
