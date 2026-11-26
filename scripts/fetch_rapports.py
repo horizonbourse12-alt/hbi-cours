@@ -36,8 +36,8 @@ SOCIETES = {
     "SODE CI": "sodeci", "ONATEL BF": "onatel-bf", "ORANGE COTE D'IVOIRE": "orange-ci", "SONATEL SN": "sonatel",
     # pages non vérifiées : retrouvées dans la liste des émetteurs de la BRVM
     "UNILEVER CI": "~unilever", "UNIWAX CI": "~uniwax", "TRACTAFRIC MOTORS CI": "~tractafric",
-    "VIVO ENERGY CI": "~vivo|shell", "TOTALENERGIES MARKETING CI": "~total+ci|total+cote|total+ivoire",
-    "TOTALENERGIES MARKETING SN": "~total+sn|total+senegal",
+    "VIVO ENERGY CI": "~vivo|shell", "TOTALENERGIES MARKETING CI": "total",
+    "TOTALENERGIES MARKETING SN": "totalenergies-marketing-sn",
 }
 # noms utilisés par le BOC (colonne « Emetteur ») quand ils diffèrent de ceux de l'application
 ALIAS = {"ECOBANK TG": "ECOBANK TRANS. INCORP. TG", "ETI TG": "ECOBANK TRANS. INCORP. TG", "ETI": "ECOBANK TRANS. INCORP. TG",
