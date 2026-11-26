@@ -97,6 +97,8 @@ if __name__ == "__main__":
         old = json.load(open(OUT, encoding="utf-8"))
         if old.get("date") == data["date"] and old.get("heure") == data["heure"]:
             print("Aucun nouveau relevé"); sys.exit(0)
+        if old.get("provisoire") is False and old.get("date") == data["date"]:
+            print("Clôture officielle (BOC) déjà en place : cours différés ignorés"); sys.exit(0)
     except Exception:
         pass
     json.dump(data, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
