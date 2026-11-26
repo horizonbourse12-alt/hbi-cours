@@ -1,8 +1,11 @@
 name: Cours BRVM
+# Une seule exécution longue lit la page des cours toutes les 10 minutes jusqu'à 15h35 (heure d'Abidjan = UTC).
+# Plus fiable que 6 lancements programmés par heure, car GitHub retarde ou saute souvent ces lancements.
 on:
   schedule:
-    - cron: "*/10 9-15 * * 1-5"   # heures UTC = heure d'Abidjan ; GitHub peut retarder un lancement de quelques minutes
-  workflow_dispatch: {}
+    - cron: "50 8 * * 1-5"    # démarrage normal, 8h50
+    - cron: "5 11 * * 1-5"    # filet de sécurité : relance si le démarrage de 8h50 a été sauté
+  workflow_dispatch: {}        # démarrage à la main (bouton Run workflow) : elle tourne jusqu'à 15h35
 permissions:
   contents: write
 concurrency:
@@ -11,13 +14,18 @@ concurrency:
 jobs:
   cours:
     runs-on: ubuntu-latest
+    timeout-minutes: 400
     steps:
       - uses: actions/checkout@v4
-      - name: Lire la page des cours BRVM
-        run: python3 scripts/fetch_cours.py
-      - name: Enregistrer cours.json
+      - name: Lire les cours toutes les 10 minutes jusqu'à 15h35
         run: |
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
-          git add cours.json
-          git diff --cached --quiet || (git commit -m "Cours $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push)
+          while true; do
+            hm=$(date -u +%H%M)
+            [ "$hm" -ge 1535 ] && { echo "Fin de séance ($hm UTC)"; break; }
+            python3 scripts/fetch_cours.py || echo "Lecture échouée, on réessaie au prochain tour"
+            git add cours.json
+            git diff --cached --quiet || (git commit -q -m "Cours $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push -q) || echo "Enregistrement échoué, on réessaie"
+            sleep 600
+          done
