@@ -1,11 +1,12 @@
 name: Cours BRVM
-# Une seule exécution longue lit la page des cours toutes les 10 minutes jusqu'à 15h35 (heure d'Abidjan = UTC).
+# Une seule exécution longue lit la page des cours toutes les 10 minutes jusqu'à la fermeture du marché (15h00, ±1 min ; 12h00 la veille d'un jour férié ; rien les jours fériés).
+# Horaires et jours fériés : scripts/horaire.py (source brvm.org/fr/horaires-de-cotation et /fr/jours-feries).
 # Plus fiable que 6 lancements programmés par heure, car GitHub retarde ou saute souvent ces lancements.
 on:
   schedule:
     - cron: "50 8 * * 1-5"    # démarrage normal, 8h50
     - cron: "5 11 * * 1-5"    # filet de sécurité : relance si le démarrage de 8h50 a été sauté
-  workflow_dispatch: {}        # démarrage à la main (bouton Run workflow) : elle tourne jusqu'à 15h35
+  workflow_dispatch: {}        # démarrage à la main (bouton Run workflow) : elle s'arrête à la fermeture du marché
 permissions:
   contents: write
 concurrency:
@@ -17,15 +18,19 @@ jobs:
     timeout-minutes: 400
     steps:
       - uses: actions/checkout@v4
-      - name: Lire les cours toutes les 10 minutes jusqu'à 15h35
+      - name: Lire les cours toutes les 10 minutes jusqu'à la fermeture
         run: |
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
+          set -- $(python3 scripts/horaire.py)
+          [ "$1" = "FERIE" ] && { echo "Marché fermé aujourd'hui (week-end ou jour férié)"; exit 0; }
+          FIN=$2
           while true; do
             hm=$(date -u +%H%M)
-            [ "$hm" -ge 1535 ] && { echo "Fin de séance ($hm UTC)"; break; }
+            [ "$hm" -ge "$FIN" ] && { echo "Fin de séance ($hm UTC)"; break; }
             python3 scripts/fetch_cours.py || echo "Lecture échouée, on réessaie au prochain tour"
             git add cours.json
             git diff --cached --quiet || (git commit -q -m "Cours $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push -q) || echo "Enregistrement échoué, on réessaie"
-            sleep 600
+            # toutes les 10 min ; toutes les 5 min dans l'heure de clôture pour attraper le dernier cours officiel
+            [ "$hm" -ge $((FIN - 70)) ] && sleep 300 || sleep 600
           done
