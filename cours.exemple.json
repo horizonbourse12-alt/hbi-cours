@@ -1,0 +1,22 @@
+{
+ "date": "26/11/2026",
+ "heure": "12h30",
+ "provisoire": true,
+ "rows": [
+  {
+   "s": "SCRC",
+   "veille": 1335,
+   "dernier": 1390,
+   "bas": 1340,
+   "haut": 1435,
+   "volume": 11337,
+   "t": "11:59"
+  },
+  {
+   "s": "SICC",
+   "veille": 8400,
+   "dernier": null,
+   "volume": null
+  }
+ ]
+}
