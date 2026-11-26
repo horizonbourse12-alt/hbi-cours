@@ -42,5 +42,5 @@ jobs:
           python3 -m http.server 8765 >/dev/null 2>&1 &
           sleep 2
           python3 scripts/visuel.py || { echo "visuel non généré"; exit 0; }
-          git add opportunites.png
+          git add opportunites.png top-cours.png top-volume.png
           git diff --cached --quiet || (git commit -q -m "Visuel du jour $(date -u +%d/%m)" && git pull --rebase -q && git push -q) || echo "enregistrement du visuel échoué"

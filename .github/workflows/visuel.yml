@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install -q playwright
           python3 -m playwright install --with-deps chromium
-      - name: Capturer l'affiche
+      - name: Capturer les affiches
         if: ${{ !startsWith(steps.jour.outputs.r, 'FERIE') || github.event_name == 'workflow_dispatch' }}
         run: |
           python3 -m http.server 8765 >/dev/null 2>&1 &
@@ -36,5 +36,5 @@ jobs:
         run: |
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
-          git add opportunites.png
+          git add opportunites.png top-cours.png top-volume.png
           git diff --cached --quiet || (git commit -q -m "Visuel du jour $(date -u +%d/%m)" && git pull --rebase -q && git push -q)
