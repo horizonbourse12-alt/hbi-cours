@@ -19,6 +19,8 @@ jobs:
         run: command -v pdftotext >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
       - name: Lire le BOC et chercher les rapports annoncés
         run: python3 scripts/fetch_boc.py
+      - name: Archiver les BOC des 31 derniers jours (téléchargement dans l'application)
+        run: python3 scripts/fetch_boc_archive.py || echo "archive BOC non mise à jour"
       - name: Enregistrer
         run: |
           git config user.name "hbi-bot"
