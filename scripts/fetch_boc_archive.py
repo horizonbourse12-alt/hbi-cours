@@ -11,7 +11,7 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOSSIER = os.path.join(RACINE, "publications", "boc")
 LISTE = "https://bfin.brvm.org/boc/boc_jour.aspx"
 URL_PDF = "https://bfin.brvm.org/boc/BOC_JOUR/BOC_{}.pdf"
-UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-boc/1.0; +https://horizonbourse12-alt.github.io/hbi-cours/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-boc/1.0; +https://horizonbourse12-alt.github.io/semeur.app/)"}
 JOURS = 31
 
 

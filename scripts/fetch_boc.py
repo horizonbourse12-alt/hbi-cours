@@ -15,7 +15,7 @@ import json, os, re, subprocess, sys, tempfile, time, urllib.request
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTE = "https://bfin.brvm.org/boc/boc_jour.aspx"
 URL_PDF = "https://bfin.brvm.org/boc/BOC_JOUR/BOC_{}.pdf"
-UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-boc/1.0; +https://horizonbourse12-alt.github.io/hbi-cours/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-boc/1.0; +https://horizonbourse12-alt.github.io/semeur.app/)"}
 ETAT = os.path.join(RACINE, "boc", "etat.json")
 NB = r"-?\d{1,3}(?: \d{3})*"
 

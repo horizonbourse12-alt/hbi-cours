@@ -16,7 +16,7 @@ BASE = "https://www.brvm.org"
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOSSIER = os.path.join(RACINE, "publications", "rapports")
 INDEX = os.path.join(RACINE, "publications", "index.json")
-UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-rapports/1.0; +https://horizonbourse12-alt.github.io/hbi-cours/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; HBI-rapports/1.0; +https://horizonbourse12-alt.github.io/semeur.app/)"}
 
 # nom dans l'application -> page BRVM (…/rapports-societe-cotes/<slug>) ; "~mot+mot|…" = slug à retrouver dans la liste des émetteurs
 SOCIETES = {
