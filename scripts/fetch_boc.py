@@ -144,7 +144,15 @@ def main():
                 f.write(data)
             cours, annonces = traiter(d, f.name)
             os.unlink(f.name)
-            if len(cours["rows"]) >= 30:
+            try:
+                actuel = json.load(open(os.path.join(RACINE, "cours.json"), encoding="utf-8"))
+                ja = actuel["date"].split("/"); jb = cours["date"].split("/")
+                plus_recent = ja[::-1] > jb[::-1]      # cours.json contient déjà une séance plus récente que ce BOC
+            except Exception:  # noqa: BLE001
+                plus_recent = False
+            if plus_recent:
+                print(f"cours.json ({actuel['date']}) est plus récent que ce BOC ({cours['date']}) : inchangé")
+            elif len(cours["rows"]) >= 30:
                 json.dump(cours, open(os.path.join(RACINE, "cours.json"), "w", encoding="utf-8"), ensure_ascii=False)
                 print("cours.json : clôture officielle écrite")
             else:
