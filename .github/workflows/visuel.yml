@@ -1,0 +1,40 @@
+name: Visuel du jour
+# Image « Les opportunités du moment sur le marché » : opportunites.png (même adresse chaque jour).
+# Lancée automatiquement à la fin du robot des cours (fermeture 15h00) ; ce workflow permet de la refaire à la main
+# (bouton Run workflow) et sert de filet de sécurité à 15h20 les jours de marché.
+on:
+  schedule:
+    - cron: "20 15 * * 1-5"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: visuel
+  cancel-in-progress: false
+jobs:
+  visuel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Jour de marché ?
+        id: jour
+        run: |
+          r=$(python3 scripts/horaire.py)
+          echo "r=$r" >> "$GITHUB_OUTPUT"
+      - name: Navigateur
+        if: ${{ !startsWith(steps.jour.outputs.r, 'FERIE') || github.event_name == 'workflow_dispatch' }}
+        run: |
+          pip install -q playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Capturer l'affiche
+        if: ${{ !startsWith(steps.jour.outputs.r, 'FERIE') || github.event_name == 'workflow_dispatch' }}
+        run: |
+          python3 -m http.server 8765 >/dev/null 2>&1 &
+          sleep 2
+          python3 scripts/visuel.py
+      - name: Enregistrer
+        run: |
+          git config user.name "hbi-bot"
+          git config user.email "hbi-bot@users.noreply.github.com"
+          git add opportunites.png
+          git diff --cached --quiet || (git commit -q -m "Visuel du jour $(date -u +%d/%m)" && git pull --rebase -q && git push -q)
