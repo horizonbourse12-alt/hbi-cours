@@ -1,0 +1,23 @@
+name: Rapports BRVM
+on:
+  schedule:
+    - cron: "30 18 * * 1-5"   # chaque soir de semaine, 18h30 (heure d'Abidjan = UTC)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: rapports
+  cancel-in-progress: false
+jobs:
+  rapports:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Télécharger les nouveaux rapports
+        run: python3 scripts/fetch_rapports.py
+      - name: Enregistrer les rapports
+        run: |
+          git config user.name "hbi-bot"
+          git config user.email "hbi-bot@users.noreply.github.com"
+          git add publications
+          git diff --cached --quiet || (git commit -m "Rapports BRVM $(date -u +%d/%m)" && git pull --rebase -q && git push)

@@ -20,4 +20,4 @@ jobs:
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
           git add cours.json
-          git diff --cached --quiet || (git commit -m "Cours $(date -u +%d/%m %H:%M) UTC" && git push)
+          git diff --cached --quiet || (git commit -m "Cours $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push)
