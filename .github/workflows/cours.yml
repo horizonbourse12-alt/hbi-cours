@@ -34,13 +34,3 @@ jobs:
             # toutes les 10 min ; toutes les 5 min dans l'heure de clôture pour attraper le dernier cours officiel
             [ "$hm" -ge $((FIN - 70)) ] && sleep 300 || sleep 600
           done
-      - name: Visuel du jour (opportunités du marché), juste après la fermeture
-        run: |
-          [ "$(python3 scripts/horaire.py)" = "FERIE" ] && exit 0
-          pip install -q playwright
-          python3 -m playwright install --with-deps chromium
-          python3 -m http.server 8765 >/dev/null 2>&1 &
-          sleep 2
-          python3 scripts/visuel.py || { echo "visuel non généré"; exit 0; }
-          git add opportunites.png top-cours.png top-volume.png
-          git diff --cached --quiet || (git commit -q -m "Visuel du jour $(date -u +%d/%m)" && git pull --rebase -q && git push -q) || echo "enregistrement du visuel échoué"
