@@ -68,7 +68,7 @@ def parse(html):
         for i, c in enumerate(h):
             if all(k in c for k in keys): return i
         return None
-    iS, iV, iVol = col("symbole"), col("veille"), col("volume")
+    iS, iV, iVol, iVar = col("symbole"), col("veille"), col("volume"), col("variation")
     iC = col("cloture") if col("cloture") is not None else col("dernier")
     if None in (iS, iV, iC): raise SystemExit(f"Colonnes manquantes : {h}")
     rows = []
@@ -78,9 +78,10 @@ def parse(html):
         veille, dernier = num(r[iV]), num(r[iC])
         vol = num(r[iVol]) if iVol is not None and iVol < len(r) else None
         if not re.fullmatch(r"[A-Z]{3,6}", sym) or not veille: continue
+        var = num(r[iVar]) if iVar is not None and iVar < len(r) else None
         if dernier is not None and dernier == veille and not vol: dernier = None
         rows.append({"s": sym, "veille": int(veille), "dernier": None if dernier is None else int(dernier),
-                     "volume": None if vol is None else int(vol)})
+                     "volume": None if vol is None else int(vol), "_var": var})
     txt = " ".join(" ".join(x) for x in [[re.sub(r"<[^>]+>", " ", html)]])
     m = re.search(r"Derni[eè]re mise [àa] jour\s*:?\s*[A-Za-zéèûôîà]*,?\s*(\d{1,2})\s+([A-Za-zéèûôîà]+),?\s*(\d{4})\s*-\s*(\d{1,2}):(\d{2})", txt)
     if not m: raise SystemExit("Date de mise à jour introuvable")
@@ -89,8 +90,50 @@ def parse(html):
     return {"date": f"{jj:02d}/{mois:02d}/{aaaa}", "heure": f"{hh:02d}h{mm:02d}", "provisoire": True, "source": "brvm.org (différé 15 min)", "rows": rows}
 
 
+CP = "data/cloture_precedente.json"
+
+
+def iso(d):
+    m = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", d or "")
+    return m.group(3) + m.group(2) + m.group(1) if m else ""
+
+
+def clotures_precedentes(data, old):
+    """Clôtures de la dernière séance antérieure au relevé, mémorisées dans data/cloture_precedente.json."""
+    try: cp = json.load(open(CP, encoding="utf-8"))
+    except Exception: cp = {}
+    if old and old.get("rows") and iso(old.get("date")) and iso(old["date"]) < iso(data["date"]) and cp.get("date") != old["date"]:
+        cp = {"date": old["date"], "closes": {r["s"]: (r["dernier"] if r.get("dernier") else r["veille"]) for r in old["rows"]}}
+        import os; os.makedirs(os.path.dirname(CP), exist_ok=True)
+        json.dump(cp, open(CP, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    return cp.get("closes", {}) if iso(cp.get("date")) and iso(cp["date"]) < iso(data["date"]) else {}
+
+
+def corriger_veille(data, old):
+    """La colonne « Cours veille » de la page BRVM reprend en réalité le cours d'ouverture du jour : ce n'est pas la clôture de la veille.
+    La vraie clôture de la veille est (1) celle de la séance précédente mémorisée par le robot, (2) à défaut, déduite du cours et de la
+    colonne « Variation (%) » de la page. Contrôle de cohérence avec la variation affichée."""
+    prev = clotures_precedentes(data, old)
+    nb_ok = nb_est = 0
+    for r in data["rows"]:
+        v = r.pop("_var", None); d = r["dernier"]
+        est = None
+        if d and v is not None:
+            if abs(v) < 1e-9: est = d
+            elif v > -99: est = d / (1 + v / 100.0)
+        cand = prev.get(r["s"])
+        coherent = lambda x: not (d and v is not None) or abs((d / x - 1) * 100 - v) <= 0.02
+        if cand and coherent(cand): r["veille"] = int(cand); nb_ok += 1
+        elif est: r["veille"] = int(round(est)); nb_est += 1
+        elif cand: r["veille"] = int(cand); nb_ok += 1
+    print(f"Clôture de la veille : {nb_ok} reprises de la séance précédente, {nb_est} déduites de la variation")
+    return data
+
+
 if __name__ == "__main__":
     data = parse(fetch())
+    try: data = corriger_veille(data, json.load(open(OUT, encoding="utf-8")))
+    except Exception as e: data = corriger_veille(data, None); print("Relevé précédent illisible :", e)
     if len(data["rows"]) < 40:
         raise SystemExit(f"Relevé incomplet ({len(data['rows'])} lignes) : fichier non modifié")
     try:
