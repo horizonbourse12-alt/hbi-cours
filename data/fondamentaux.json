@@ -1,0 +1,1254 @@
+{
+ "genere": "2026-11-27",
+ "note": "Données financières (exercice publié) exportées de l'application. Régénérer quand les comptes d'une société changent.",
+ "societes": [
+  {
+   "name": "NESTLE CI",
+   "ticker": "NTLC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 11700,
+   "scr": {
+    "bnpa": 834.91,
+    "vmc": 505.70945701029433,
+    "divNet": 369.6,
+    "payout": 0.44268244481441116,
+    "gRN": 0.015262548900765838,
+    "gCA": 0.05973295534566336,
+    "roe": 1.6508962737911033,
+    "marge": 0.07899305927694729
+   },
+   "valo": {
+    "bnpa": 834.91,
+    "bvps": 505.70945701029433,
+    "dn": 369.6
+   },
+   "ref": {
+    "score": 49.20615965056512,
+    "valeur": 4570.084033613446
+   }
+  },
+  {
+   "name": "PALM CI",
+   "ticker": "PALC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 7200,
+   "scr": {
+    "bnpa": 1003,
+    "vmc": 9092.63514634153,
+    "divNet": 441.04,
+    "payout": 0.43972083748753743,
+    "gRN": -0.02225444458454162,
+    "gCA": 0.14779043227264022,
+    "roe": 0.1103325756342647,
+    "marge": 0.07847492789556242
+   },
+   "valo": {
+    "bnpa": 1003,
+    "bvps": 9092.63514634153,
+    "dn": 441.04
+   },
+   "ref": {
+    "score": 69.71095390355185,
+    "valeur": 14324.735378535357
+   }
+  },
+  {
+   "name": "SAPH CI",
+   "ticker": "SPHC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 7450,
+   "scr": {
+    "bnpa": 977.07,
+    "vmc": 5049.470019275761,
+    "divNet": 430.32,
+    "payout": 0.44041880315637566,
+    "gRN": 0.3290047897817989,
+    "gCA": 0.21970168695739312,
+    "roe": 0.19349982542243044,
+    "marge": 0.07326798325269708
+   },
+   "valo": {
+    "bnpa": 977.07,
+    "bvps": 5049.470019275761,
+    "dn": 430.32
+   },
+   "ref": {
+    "score": 89.82604687286542,
+    "valeur": 10536.029974046665
+   }
+  },
+  {
+   "name": "SUCRIVOIRE",
+   "ticker": "SCRC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 1395,
+   "scr": {
+    "bnpa": null,
+    "vmc": 705.195918367347,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": -3.3666538016209957,
+    "gCA": -0.07624485490546784,
+    "roe": -0.44364570853084684,
+    "marge": -0.07610867703459147
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": 705.195918367347,
+    "dn": 0
+   },
+   "ref": {
+    "score": 11.391178470876795,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SICOR CI",
+   "ticker": "SICC",
+   "secteur": "Consommation de base",
+   "arret": true,
+   "coursRef": 8400,
+   "scr": {
+    "bnpa": null,
+    "vmc": null,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": -1,
+    "roe": null,
+    "marge": null
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": null,
+    "dn": 0
+   },
+   "ref": {
+    "score": 0,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SOLIBRA CI",
+   "ticker": "SLBC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 34005,
+   "scr": {
+    "bnpa": 2781,
+    "vmc": 11687.248645877124,
+    "divNet": 1871.76,
+    "payout": 0.6730528586839266,
+    "gRN": 1.132125558867362,
+    "gCA": 0.22084643648174818,
+    "roe": 0.23796933526968983,
+    "marge": 0.1210743594015704
+   },
+   "valo": {
+    "bnpa": 2781,
+    "bvps": 11687.248645877124,
+    "dn": 1871.76
+   },
+   "ref": {
+    "score": 84.81466921486683,
+    "valeur": 25253.61219234608
+   }
+  },
+  {
+   "name": "SOGB CI",
+   "ticker": "SOGC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 7230,
+   "scr": {
+    "bnpa": 578.31,
+    "vmc": 3167.629238990752,
+    "divNet": 501.6,
+    "payout": 0.8673548788711938,
+    "gRN": -0.04714971409045532,
+    "gCA": 0.10292456522954763,
+    "roe": 0.18256959060669667,
+    "marge": 0.12667687440426698
+   },
+   "valo": {
+    "bnpa": 578.31,
+    "bvps": 3167.629238990752,
+    "dn": 501.6
+   },
+   "ref": {
+    "score": 65.08066992793113,
+    "valeur": 6202.256902761104
+   }
+  },
+  {
+   "name": "SITAB CI",
+   "ticker": "STBC",
+   "secteur": "Consommation de base",
+   "arret": false,
+   "coursRef": 20000,
+   "scr": {
+    "bnpa": 2030.83,
+    "vmc": 2455.8423837371206,
+    "divNet": 1707.2,
+    "payout": 0.8406415111062965,
+    "gRN": -0.1745370579979173,
+    "gCA": 0.2530131163298539,
+    "roe": 0.8269483939661614,
+    "marge": 0.1357876195831487
+   },
+   "valo": {
+    "bnpa": 2030.83,
+    "bvps": 2455.8423837371206,
+    "dn": 1707.2
+   },
+   "ref": {
+    "score": 63.80334433421889,
+    "valeur": 14845.146039823921
+   }
+  },
+  {
+   "name": "UNILEVER CI",
+   "ticker": "UNLC",
+   "secteur": "Consommation de base",
+   "arret": true,
+   "coursRef": 38850,
+   "scr": {
+    "bnpa": null,
+    "vmc": null,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": null,
+    "roe": null,
+    "marge": null
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": null,
+    "dn": 0
+   },
+   "ref": {
+    "score": 0,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SERVAIR ABIDJAN CI",
+   "ticker": "ABJC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 2590,
+   "scr": {
+    "bnpa": 123.78,
+    "vmc": 472.79967008797655,
+    "divNet": 201.52,
+    "payout": 1.6280497657133626,
+    "gRN": -0.11059907834101379,
+    "gCA": 0.0666559717654609,
+    "roe": 0.26186281179797605,
+    "marge": 0.10159422469544292
+   },
+   "valo": {
+    "bnpa": 123.78,
+    "bvps": 472.79967008797655,
+    "dn": 201.52
+   },
+   "ref": {
+    "score": 46.99465261180832,
+    "valeur": 1957.7813405689412
+   }
+  },
+  {
+   "name": "BERNABE CI",
+   "ticker": "BNBC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 1660,
+   "scr": {
+    "bnpa": 3.37,
+    "vmc": 2663.792270531401,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": 2.057534246575343,
+    "gCA": -0.06307379943502822,
+    "roe": 0.0012649504447728983,
+    "marge": 0.0005257455127903142
+   },
+   "valo": {
+    "bnpa": 3.37,
+    "bvps": 2663.792270531401,
+    "dn": 0
+   },
+   "ref": {
+    "score": 27.629920984210656,
+    "valeur": 3789.0591132339946
+   }
+  },
+  {
+   "name": "CFAO MOTORS CI",
+   "ticker": "CFAC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 1160,
+   "scr": {
+    "bnpa": 46.4,
+    "vmc": null,
+    "divNet": 55.44,
+    "payout": 1.1948275862068964,
+    "gRN": 0.7933091838909014,
+    "gCA": 0.14043066583287533,
+    "roe": 0.3238867643227338,
+    "marge": 0.04661441745825141
+   },
+   "valo": {
+    "bnpa": 46.4,
+    "bvps": null,
+    "dn": 55.44
+   },
+   "ref": {
+    "score": 53.120701210616865,
+    "valeur": 703.8343768246946
+   }
+  },
+  {
+   "name": "LOTERIE NATIONALE DU BENIN",
+   "ticker": "LNBB",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 3895,
+   "scr": {
+    "bnpa": 231.11,
+    "vmc": 730.6365,
+    "divNet": 164.17,
+    "payout": 0.710354376703734,
+    "gRN": -0.3559085841694537,
+    "gCA": -0.038481042284287725,
+    "roe": 0.31629955525079845,
+    "marge": 0.04687721860483986
+   },
+   "valo": {
+    "bnpa": 231.11,
+    "bvps": 730.6365,
+    "dn": 164.17
+   },
+   "ref": {
+    "score": 42.28920309189233,
+    "valeur": 2029.953181272509
+   }
+  },
+  {
+   "name": "NEI-CEDA CI",
+   "ticker": "NEIC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 1790,
+   "scr": {
+    "bnpa": 159.54,
+    "vmc": 425.47739766133407,
+    "divNet": 140.39,
+    "payout": 0.8799674062930926,
+    "gRN": null,
+    "gCA": -0.23798762588270717,
+    "roe": 374960.8739277962,
+    "marge": 0.396291974618772
+   },
+   "valo": {
+    "bnpa": 159.54,
+    "bvps": 425.47739766133407,
+    "dn": 140.39
+   },
+   "ref": {
+    "score": 58.09880959706236,
+    "valeur": 1735.9147659063624
+   }
+  },
+  {
+   "name": "TRACTAFRIC MOTORS CI",
+   "ticker": "PRSC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 3300,
+   "scr": {
+    "bnpa": 231.19,
+    "vmc": 1126.0488281250002,
+    "divNet": 183.92,
+    "payout": 0.7955361391063627,
+    "gRN": 0.00852151682999569,
+    "gCA": 0.08638652311318218,
+    "roe": 0.20527737161708612,
+    "marge": 0.029176476388871768
+   },
+   "valo": {
+    "bnpa": 231.19,
+    "bvps": 1126.0488281250002,
+    "dn": 183.92
+   },
+   "ref": {
+    "score": 55.658574808123774,
+    "valeur": 2420.217478434515
+   }
+  },
+  {
+   "name": "UNIWAX CI",
+   "ticker": "UNXC",
+   "secteur": "Consommation discrétionnaire",
+   "arret": false,
+   "coursRef": 1690,
+   "scr": {
+    "bnpa": null,
+    "vmc": 199.50554216867465,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": 0.06215929462554426,
+    "roe": -0.15073410407416896,
+    "marge": -0.02149352438688344
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": 199.50554216867465,
+    "dn": 0
+   },
+   "ref": {
+    "score": 4.143952975036284,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SMB CI",
+   "ticker": "SMBC",
+   "secteur": "Énergie",
+   "arret": false,
+   "coursRef": 17395,
+   "scr": {
+    "bnpa": 1677.31,
+    "vmc": 5505.012058702791,
+    "divNet": 704,
+    "payout": 0.419719670186191,
+    "gRN": 0.5032191308346747,
+    "gCA": -0.09744565858002885,
+    "roe": 0.3046885686674821,
+    "marge": 0.06324368772371095
+   },
+   "valo": {
+    "bnpa": 1677.31,
+    "bvps": 5505.012058702791,
+    "dn": 704
+   },
+   "ref": {
+    "score": 70.4982757101954,
+    "valeur": 14413.752632958307
+   }
+  },
+  {
+   "name": "TOTALENERGIES MARKETING CI",
+   "ticker": "TTLC",
+   "secteur": "Énergie",
+   "arret": false,
+   "coursRef": 2950,
+   "scr": {
+    "bnpa": 144.33,
+    "vmc": 343.53796599832276,
+    "divNet": 139.77,
+    "payout": 0.9684057368530451,
+    "gRN": -0.030616599103904463,
+    "gCA": -0.052062501408922435,
+    "roe": 0.4201167838666278,
+    "marge": 0.015435469816157048
+   },
+   "valo": {
+    "bnpa": 144.33,
+    "bvps": 343.53796599832276,
+    "dn": 139.77
+   },
+   "ref": {
+    "score": 30.124609541030534,
+    "valeur": 1728.2484993997602
+   }
+  },
+  {
+   "name": "TOTALENERGIES MARKETING SN",
+   "ticker": "TTLS",
+   "secteur": "Énergie",
+   "arret": false,
+   "coursRef": 3500,
+   "scr": {
+    "bnpa": 188.69,
+    "vmc": 349.3242309923659,
+    "divNet": 176.65,
+    "payout": 0.9361916370766866,
+    "gRN": -0.13314527503526097,
+    "gCA": -0.061320355916650304,
+    "roe": 0.540061756492428,
+    "marge": 0.01350152018417954
+   },
+   "valo": {
+    "bnpa": 188.69,
+    "bvps": 349.3242309923659,
+    "dn": 176.65
+   },
+   "ref": {
+    "score": 32.51318466463376,
+    "valeur": 2184.267707082833
+   }
+  },
+  {
+   "name": "VIVO ENERGY CI",
+   "ticker": "SHEC",
+   "secteur": "Énergie",
+   "arret": false,
+   "coursRef": 1795,
+   "scr": {
+    "bnpa": 95.68,
+    "vmc": 291.37650793650795,
+    "divNet": 85.07,
+    "payout": 0.8891095317725751,
+    "gRN": 0.12588718714979463,
+    "gCA": 0.007108278897567599,
+    "roe": 0.3283811051211763,
+    "marge": 0.009963998690861486
+   },
+   "valo": {
+    "bnpa": 95.68,
+    "bvps": 291.37650793650795,
+    "dn": 85.07
+   },
+   "ref": {
+    "score": 39.7564661047597,
+    "valeur": 1051.8859543817525
+   }
+  },
+  {
+   "name": "ECOBANK COTE D'IVOIRE",
+   "ticker": "ECOC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 14000,
+   "scr": {
+    "bnpa": 1153.16,
+    "vmc": 3255.1634314612375,
+    "divNet": 781.44,
+    "payout": 0.6776509764473273,
+    "gRN": 0.10447657323799087,
+    "gCA": 0.08509925112004968,
+    "roe": 0.3542548020716668,
+    "marge": 0.4782972311169712
+   },
+   "valo": {
+    "bnpa": 1153.16,
+    "bvps": 3255.1634314612375,
+    "dn": 781.44
+   },
+   "ref": {
+    "score": 69.0120608949521,
+    "valeur": 10808.917216415193
+   }
+  },
+  {
+   "name": "SGBCI",
+   "ticker": "SGBC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 36500,
+   "scr": {
+    "bnpa": 3257.73,
+    "vmc": 15914.346996940963,
+    "divNet": 2298.75,
+    "payout": 0.7056293799670322,
+    "gRN": 0.0012249575216343178,
+    "gCA": 0.04878669640245126,
+    "roe": 0.20470478456433178,
+    "marge": 0.36715353851504084
+   },
+   "valo": {
+    "bnpa": 3257.73,
+    "bvps": 15914.346996940963,
+    "dn": 2298.75
+   },
+   "ref": {
+    "score": 67.9863553198033,
+    "valeur": 33765.53742389679
+   }
+  },
+  {
+   "name": "SOCIETE IVOIRIENNE DE BANQUE",
+   "ticker": "SIBC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 7680,
+   "scr": {
+    "bnpa": 556.23,
+    "vmc": 2052.5908000000004,
+    "divNet": 374,
+    "payout": 0.672383726156446,
+    "gRN": 0.10756972111553775,
+    "gCA": 0.057392996108949434,
+    "roe": 0.270877176298364,
+    "marge": 0.5114995400183993
+   },
+   "valo": {
+    "bnpa": 556.23,
+    "bvps": 2052.5908000000004,
+    "dn": 374
+   },
+   "ref": {
+    "score": 66.60941902615053,
+    "valeur": 5503.2941199532215
+   }
+  },
+  {
+   "name": "BIIC BN",
+   "ticker": "BICB",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 7000,
+   "scr": {
+    "bnpa": 418.66,
+    "vmc": 2319.880609004879,
+    "divNet": 254.43849999999998,
+    "payout": 0.6077449481679643,
+    "gRN": -0.2029926502092878,
+    "gCA": 0.14449089742738952,
+    "roe": 0.18046828916479796,
+    "marge": 0.4673843715572392
+   },
+   "valo": {
+    "bnpa": 418.66,
+    "bvps": 2319.880609004879,
+    "dn": 254.43849999999998
+   },
+   "ref": {
+    "score": 65.05941648040076,
+    "valeur": 4432.575314653546
+   }
+  },
+  {
+   "name": "BICI CI",
+   "ticker": "BICC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 28800,
+   "scr": {
+    "bnpa": 2191,
+    "vmc": 5042.998991400202,
+    "divNet": 1157.2,
+    "payout": 0.5281606572341396,
+    "gRN": 0.3925112483794708,
+    "gCA": 0.16896110956026034,
+    "roe": 0.4345032718619869,
+    "marge": 0.4590073275266141
+   },
+   "valo": {
+    "bnpa": 2191,
+    "bvps": 5042.998991400202,
+    "dn": 1157.2
+   },
+   "ref": {
+    "score": 77.76248458321717,
+    "valeur": 18187.11308864769
+   }
+  },
+  {
+   "name": "BOA BN",
+   "ticker": "BOAB",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 8000,
+   "scr": {
+    "bnpa": 495.73,
+    "vmc": 2897.04053011648,
+    "divNet": 555.75,
+    "payout": 1.1210739717184757,
+    "gRN": 0.023413243752226753,
+    "gCA": 0.10202897304732828,
+    "roe": 0.17111321027683457,
+    "marge": 0.39215571548378286
+   },
+   "valo": {
+    "bnpa": 495.73,
+    "bvps": 2897.04053011648,
+    "dn": 555.75
+   },
+   "ref": {
+    "score": 60.13272840507243,
+    "valeur": 6278.151999186721
+   }
+  },
+  {
+   "name": "BOA BF",
+   "ticker": "BOABF",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 6800,
+   "scr": {
+    "bnpa": 437.55,
+    "vmc": 2875.3650000000002,
+    "divNet": 396.99625,
+    "payout": 0.9073163067078047,
+    "gRN": -0.14126410633837372,
+    "gCA": 0.005722734388589279,
+    "roe": 0.15217040429491716,
+    "marge": 0.33297013092582023
+   },
+   "valo": {
+    "bnpa": 437.55,
+    "bvps": 2875.3650000000002,
+    "dn": 396.99625
+   },
+   "ref": {
+    "score": 52.77418099016539,
+    "valeur": 5114.663365215178
+   }
+  },
+  {
+   "name": "BOA CI",
+   "ticker": "BOAC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 10590,
+   "scr": {
+    "bnpa": 888.5,
+    "vmc": 3183.4145,
+    "divNet": 597.53,
+    "payout": 0.6725154755205403,
+    "gRN": 0.10909998751716388,
+    "gCA": 0.011289258016610848,
+    "roe": 0.2791028312524178,
+    "marge": 0.4832415527908083
+   },
+   "valo": {
+    "bnpa": 888.5,
+    "bvps": 3183.4145,
+    "dn": 597.53
+   },
+   "ref": {
+    "score": 67.29564029928878,
+    "valeur": 8748.637116753813
+   }
+  },
+  {
+   "name": "BOA ML",
+   "ticker": "BOAM",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 5150,
+   "scr": {
+    "bnpa": 403.69,
+    "vmc": 1870.2819672131147,
+    "divNet": 305.04,
+    "payout": 0.7556293195273601,
+    "gRN": 0.21462238298805225,
+    "gCA": 0.05083245754743082,
+    "roe": 0.21583880088602792,
+    "marge": 0.29163596168017686
+   },
+   "valo": {
+    "bnpa": 403.69,
+    "bvps": 1870.2819672131147,
+    "dn": 305.04
+   },
+   "ref": {
+    "score": 74.68238280318579,
+    "valeur": 4147.137805427971
+   }
+  },
+  {
+   "name": "BOA NG",
+   "ticker": "BOAN",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 4270,
+   "scr": {
+    "bnpa": 19.68,
+    "vmc": 1724.7870192307696,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": -0.918227802547134,
+    "gCA": -0.011931656072703078,
+    "roe": 0.011400515726997506,
+    "marge": 0.01936094674556213
+   },
+   "valo": {
+    "bnpa": 19.68,
+    "bvps": 1724.7870192307696,
+    "dn": 0
+   },
+   "ref": {
+    "score": 12.210205306639693,
+    "valeur": 1690.5167745044826
+   }
+  },
+  {
+   "name": "BOA SENEGAL",
+   "ticker": "BOAS",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 7405,
+   "scr": {
+    "bnpa": 608.47,
+    "vmc": 2681.2691666666665,
+    "divNet": 450,
+    "payout": 0.7395598796982595,
+    "gRN": 0.09612690152121695,
+    "gCA": 0.04550396649619448,
+    "roe": 0.22693440471650603,
+    "marge": 0.4218503254631591
+   },
+   "valo": {
+    "bnpa": 608.47,
+    "bvps": 2681.2691666666665,
+    "dn": 450
+   },
+   "ref": {
+    "score": 69.42278618125995,
+    "valeur": 6198.820513150596
+   }
+  },
+  {
+   "name": "CORIS BANK INTERNATIONAL",
+   "ticker": "CBIBF",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 23050,
+   "scr": {
+    "bnpa": 2046.73,
+    "vmc": 9376.4690625,
+    "divNet": 900,
+    "payout": 0.4397258065304168,
+    "gRN": 0.3662723991906043,
+    "gCA": 0.06106712879904119,
+    "roe": 0.21828246180490182,
+    "marge": 0.4712345128286302
+   },
+   "valo": {
+    "bnpa": 2046.73,
+    "bvps": 9376.4690625,
+    "dn": 900
+   },
+   "ref": {
+    "score": 81.42296491122201,
+    "valeur": 20986.75038546622
+   }
+  },
+  {
+   "name": "ECOBANK TRANS. INCORP. TG",
+   "ticker": "ETIT",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 51,
+   "scr": {
+    "bnpa": 10,
+    "vmc": 95.06210267541906,
+    "divNet": 0.92,
+    "payout": 0.092,
+    "gRN": 0.1528731490193722,
+    "gCA": 0.12287823576437118,
+    "roe": 0.20098909018330446,
+    "marge": 0.24259809122064005
+   },
+   "valo": {
+    "bnpa": 10,
+    "bvps": 95.06210267541906,
+    "dn": 0.92
+   },
+   "ref": {
+    "score": 79.21789277643649,
+    "valeur": 116.03083109468317
+   }
+  },
+  {
+   "name": "NSIA BANQUE COTE D'IVOIRE",
+   "ticker": "NSBC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 16125,
+   "scr": {
+    "bnpa": 1646,
+    "vmc": 8379.77305610948,
+    "divNet": 675.98,
+    "payout": 0.41068043742405835,
+    "gRN": 0.06821998320738865,
+    "gCA": 0.15445874523354353,
+    "roe": 0.1964200335697238,
+    "marge": 0.36051289317086993
+   },
+   "valo": {
+    "bnpa": 1646,
+    "bvps": 8379.77305610948,
+    "dn": 675.98
+   },
+   "ref": {
+    "score": 78.33550293055094,
+    "valeur": 17179.29349688627
+   }
+  },
+  {
+   "name": "ORAGROUP TOGO",
+   "ticker": "ORGT",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 2250,
+   "scr": {
+    "bnpa": null,
+    "vmc": 1576.2829523190735,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": -0.04316502589082871,
+    "roe": 0.19780158115142762,
+    "marge": 0.1157
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": 1576.2829523190735,
+    "dn": 0
+   },
+   "ref": {
+    "score": 35.04845191969041,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SAFCA CI",
+   "ticker": "SAFC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 2900,
+   "scr": {
+    "bnpa": 86.33,
+    "vmc": 728.593860648419,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": 0.4409547738693467,
+    "roe": 0.11849222447599729,
+    "marge": 0.12223190932868352
+   },
+   "valo": {
+    "bnpa": 86.33,
+    "bvps": 728.593860648419,
+    "dn": 0
+   },
+   "ref": {
+    "score": 33.08760403343912,
+    "valeur": 1189.6381507710676
+   }
+  },
+  {
+   "name": "BRIDGE BANK GROUP CI",
+   "ticker": "BBGC",
+   "secteur": "Services financiers",
+   "arret": false,
+   "coursRef": 7700,
+   "scr": {
+    "bnpa": 544,
+    "vmc": 2102.78,
+    "divNet": 353.56,
+    "payout": 0.6499264705882353,
+    "gRN": null,
+    "gCA": null,
+    "roe": 0.25870514271583334,
+    "marge": 0.40117994100294985
+   },
+   "valo": {
+    "bnpa": 544,
+    "bvps": 2102.78,
+    "dn": 353.56
+   },
+   "ref": {
+    "score": 57.44953573723184,
+    "valeur": 5423.287226877215
+   }
+  },
+  {
+   "name": "SICABLE CI",
+   "ticker": "CABC",
+   "secteur": "Industriels",
+   "arret": false,
+   "coursRef": 2500,
+   "scr": {
+    "bnpa": 287.91,
+    "vmc": 1517.829391891892,
+    "divNet": 152.02,
+    "payout": 0.5280122260428606,
+    "gRN": 0.392156862745098,
+    "gCA": 0.11179084967320252,
+    "roe": 0.18963780736849717,
+    "marge": 0.08013920895452194
+   },
+   "valo": {
+    "bnpa": 287.91,
+    "bvps": 1517.829391891892,
+    "dn": 152.02
+   },
+   "ref": {
+    "score": 87.1585516920471,
+    "valeur": 3135.6755021750705
+   }
+  },
+  {
+   "name": "FILTISAC CI",
+   "ticker": "FTSC",
+   "secteur": "Industriels",
+   "arret": false,
+   "coursRef": 1350,
+   "scr": {
+    "bnpa": 33.04,
+    "vmc": 809.6441085839642,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": -0.9749394998655553,
+    "gCA": 0.04606613454960096,
+    "roe": 0.04080914194838257,
+    "marge": 0.014513064872777103
+   },
+   "valo": {
+    "bnpa": 33.04,
+    "bvps": 809.6441085839642,
+    "dn": 0
+   },
+   "ref": {
+    "score": 19.319265444062662,
+    "valeur": 1116.5058343798514
+   }
+  },
+  {
+   "name": "AFRICA GLOBAL LOGISTICS CI",
+   "ticker": "SDSC",
+   "secteur": "Industriels",
+   "arret": false,
+   "coursRef": 2685,
+   "scr": {
+    "bnpa": 14.42,
+    "vmc": 1304.638350482132,
+    "divNet": 92,
+    "payout": 6.38002773925104,
+    "gRN": -0.9627414685082348,
+    "gCA": 0.07427343740877834,
+    "roe": 0.011053476578880003,
+    "marge": 0.0085322377287944
+   },
+   "valo": {
+    "bnpa": 14.42,
+    "bvps": 1304.638350482132,
+    "dn": 92
+   },
+   "ref": {
+    "score": 23.95215294975743,
+    "valeur": 1137.5750300120048
+   }
+  },
+  {
+   "name": "EVIOSYS PACKAGING SIEM CI",
+   "ticker": "SEMC",
+   "secteur": "Industriels",
+   "arret": true,
+   "coursRef": 1495,
+   "scr": {
+    "bnpa": null,
+    "vmc": null,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": 25.613636363636363,
+    "gCA": null,
+    "roe": null,
+    "marge": 0.20017094017094017
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": null,
+    "dn": 0
+   },
+   "ref": {
+    "score": 25,
+    "valeur": null
+   }
+  },
+  {
+   "name": "ERIUM CI (Ex AIR LIQUIDE CI)",
+   "ticker": "SIVC",
+   "secteur": "Industriels",
+   "arret": false,
+   "coursRef": 1365,
+   "scr": {
+    "bnpa": null,
+    "vmc": null,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": -0.5250729636508358,
+    "gCA": 0.08532643826761466,
+    "roe": 0.2214496913312962,
+    "marge": 0.017768513003772086
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": null,
+    "dn": 0
+   },
+   "ref": {
+    "score": 21.87299675142578,
+    "valeur": null
+   }
+  },
+  {
+   "name": "SETAO CI",
+   "ticker": "STAC",
+   "secteur": "Industriels",
+   "arret": false,
+   "coursRef": 2390,
+   "scr": {
+    "bnpa": null,
+    "vmc": 21.543898809523817,
+    "divNet": 0,
+    "payout": 0,
+    "gRN": null,
+    "gCA": 1.1628555493586168,
+    "roe": -0.33348299084786726,
+    "marge": -0.024899432697266632
+   },
+   "valo": {
+    "bnpa": null,
+    "bvps": 21.543898809523817,
+    "dn": 0
+   },
+   "ref": {
+    "score": 10,
+    "valeur": null
+   }
+  },
+  {
+   "name": "CIE CI",
+   "ticker": "CIEC",
+   "secteur": "Services publics",
+   "arret": false,
+   "coursRef": 4050,
+   "scr": {
+    "bnpa": 234.41,
+    "vmc": 642.1785714285714,
+    "divNet": 205.92,
+    "payout": 0.8784608165180666,
+    "gRN": 0.2995742995742996,
+    "gCA": 0.14822213950944563,
+    "roe": 0.3650241922028808,
+    "marge": 0.04342087853929611
+   },
+   "valo": {
+    "bnpa": 234.41,
+    "bvps": 642.1785714285714,
+    "dn": 205.92
+   },
+   "ref": {
+    "score": 61.6429464679351,
+    "valeur": 2472.840939575146
+   }
+  },
+  {
+   "name": "SODE CI",
+   "ticker": "SDCC",
+   "secteur": "Services publics",
+   "arret": false,
+   "coursRef": 10210,
+   "scr": {
+    "bnpa": 518.08,
+    "vmc": 1697.85,
+    "divNet": 462,
+    "payout": 0.8917541692402717,
+    "gRN": 0.30955056179775275,
+    "gCA": 0.09982872238511331,
+    "roe": 0.3050917336631622,
+    "marge": 0.024610804047954644
+   },
+   "valo": {
+    "bnpa": 518.08,
+    "bvps": 1697.85,
+    "dn": 462
+   },
+   "ref": {
+    "score": 54.97654470742764,
+    "valeur": 5712.605042016807
+   }
+  },
+  {
+   "name": "ONATEL BF",
+   "ticker": "ONTBF",
+   "secteur": "Télécommunications",
+   "arret": false,
+   "coursRef": 2895,
+   "scr": {
+    "bnpa": 233.63,
+    "vmc": 926.4629411764705,
+    "divNet": 145.32,
+    "payout": 0.6220091597825621,
+    "gRN": -0.26011829910111317,
+    "gCA": 0.030562390282076413,
+    "roe": 0.25216081148606306,
+    "marge": 0.10867721103327496
+   },
+   "valo": {
+    "bnpa": 233.63,
+    "bvps": 926.4629411764705,
+    "dn": 145.32
+   },
+   "ref": {
+    "score": 60.72097245198873,
+    "valeur": 2206.8336097922797
+   }
+  },
+  {
+   "name": "ORANGE COTE D'IVOIRE",
+   "ticker": "ORAC",
+   "secteur": "Télécommunications",
+   "arret": false,
+   "coursRef": 17195,
+   "scr": {
+    "bnpa": 1114,
+    "vmc": 2582.021016844075,
+    "divNet": 704,
+    "payout": 0.6319569120287253,
+    "gRN": 0.060682680151706636,
+    "gCA": 0.10423392675952403,
+    "roe": 0.431367701942296,
+    "marge": 0.14017208253278757
+   },
+   "valo": {
+    "bnpa": 1114,
+    "bvps": 2582.021016844075,
+    "dn": 704
+   },
+   "ref": {
+    "score": 58.62533769163913,
+    "valeur": 8704.921968787516
+   }
+  },
+  {
+   "name": "SONATEL SN",
+   "ticker": "SNTS",
+   "secteur": "Télécommunications",
+   "arret": false,
+   "coursRef": 3690,
+   "scr": {
+    "bnpa": 413.6,
+    "vmc": 741.38613,
+    "divNet": 174,
+    "payout": 0.42069632495164405,
+    "gRN": 0.050617026789479214,
+    "gCA": 0.08256893128572096,
+    "roe": 0.557857752208016,
+    "marge": 0.2150607189767472
+   },
+   "valo": {
+    "bnpa": 413.6,
+    "bvps": 741.38613,
+    "dn": 174
+   },
+   "ref": {
+    "score": 66.59217103483672,
+    "valeur": 2626.659347113744
+   }
+  }
+ ]
+}

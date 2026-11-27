@@ -1,0 +1,44 @@
+name: Pouls du marché quotidien
+on:
+  schedule:
+    - cron: '15 15 * * 1-5'     # lundi au vendredi, 15h15 GMT (= Abidjan), après l'officialisation des cours de 15h00
+  workflow_dispatch:
+    inputs:
+      apercu:
+        description: "Test : générer l'aperçu sans rien envoyer (true/false)"
+        type: boolean
+        default: true
+      forcer:
+        description: "Test : ignorer les contrôles de date et d'anti-doublon (true/false)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: pouls-quotidien
+  cancel-in-progress: false
+jobs:
+  pouls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Envoyer le pouls du marché (email Brevo + notification OneSignal)
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          BREVO_FORM_URL: ${{ vars.BREVO_FORM_URL }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          FORCER: ${{ github.event_name == 'workflow_dispatch' && inputs.forcer && '1' || '' }}
+          APERCU: ${{ github.event_name == 'workflow_dispatch' && inputs.apercu && '1' || '' }}
+        run: node scripts/envoyer_pouls_marche.js
+      - name: Enregistrer le marqueur d'envoi
+        run: |
+          git config user.name "hbi-bot"
+          git config user.email "hbi-bot@users.noreply.github.com"
+          git add data/dernier_envoi_pouls.json config-push.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Pouls du marché $(date -u +%d/%m)" && git pull --rebase -q && git push)
