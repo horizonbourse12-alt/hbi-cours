@@ -1,5 +1,5 @@
 // Service Worker léger d'Horizon Bourse Invest : interface en cache (chargement rapide) et dernières données consultables hors connexion.
-const V = "hbi-v3";
+const V = "hbi-v4";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
@@ -35,4 +35,13 @@ self.addEventListener("fetch", (e) => {
   if (req.mode === "navigate") return e.respondWith(reseauD(req, 4000, true));
   if (/\.json$/i.test(u.pathname)) return e.respondWith(reseauD(req, 6000, false));
   if (/\.(png|jpe?g|svg|ico|webmanifest)$/i.test(u.pathname)) return e.respondWith(cacheD(req));
+});
+
+// Clic sur une notification d'alerte : ouvre (ou ramène au premier plan) l'application.
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+    for (const c of list) { if ("focus" in c) return c.focus(); }
+    return self.clients.openWindow("./");
+  }));
 });
