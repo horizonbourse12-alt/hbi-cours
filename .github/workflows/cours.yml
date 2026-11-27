@@ -5,6 +5,7 @@ name: Cours BRVM
 on:
   schedule:
     - cron: "30 9 * * 1-5"    # démarrage normal, 9h30 (le premier cours coté est à 9h45 ; GitHub limite une exécution à 6 h)
+    - cron: "50 9 * * 1-5"    # 2e filet : GitHub retarde souvent le lancement de 9h30 (si une exécution tourne déjà, celle-ci attend puis s'arrête aussitôt)
     - cron: "5 11 * * 1-5"    # filet de sécurité : relance si le démarrage de 9h30 a été sauté
   workflow_dispatch: {}        # démarrage à la main (bouton Run workflow) : elle s'arrête à la fermeture du marché
 permissions:
