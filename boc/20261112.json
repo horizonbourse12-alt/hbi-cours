@@ -1,0 +1,20 @@
+{
+ "date": "12/11/2026",
+ "source": "BOC n° 216",
+ "communiques": [
+  {
+   "emetteur": "ORAGROUP",
+   "numero": "20261112-1",
+   "nature": "Rapport d'activités du troisième",
+   "objet": "Rapport d'activités - 3e trimestre 2026 - ORAGROUP TG trimestre",
+   "rapport": true
+  },
+  {
+   "emetteur": "CIE CI",
+   "numero": "20261112",
+   "nature": "Notation Financière",
+   "objet": "Notation Financière - CIE CI",
+   "rapport": false
+  }
+ ]
+}
