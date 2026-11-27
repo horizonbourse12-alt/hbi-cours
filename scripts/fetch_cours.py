@@ -98,6 +98,17 @@ def iso(d):
     return m.group(3) + m.group(2) + m.group(1) if m else ""
 
 
+HIST = "data/historique_cloture.json"
+
+
+def archiver_cloture(cp):
+    """Archive la clôture de chaque séance (dernier relevé du jour) : sert de cours de référence au palmarès « 1 an », « 5 ans »..."""
+    try: h = json.load(open(HIST, encoding="utf-8"))
+    except Exception: h = {}
+    h[cp["date"]] = cp["closes"]
+    json.dump(dict(sorted(h.items(), key=lambda kv: iso(kv[0]))), open(HIST, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+
+
 def clotures_precedentes(data, old):
     """Clôtures de la dernière séance antérieure au relevé, mémorisées dans data/cloture_precedente.json."""
     try: cp = json.load(open(CP, encoding="utf-8"))
@@ -106,6 +117,7 @@ def clotures_precedentes(data, old):
         cp = {"date": old["date"], "closes": {r["s"]: (r["dernier"] if r.get("dernier") else r["veille"]) for r in old["rows"]}}
         import os; os.makedirs(os.path.dirname(CP), exist_ok=True)
         json.dump(cp, open(CP, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        archiver_cloture(cp)
     return cp.get("closes", {}) if iso(cp.get("date")) and iso(cp["date"]) < iso(data["date"]) else {}
 
 
