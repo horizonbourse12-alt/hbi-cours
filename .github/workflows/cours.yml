@@ -1,5 +1,5 @@
 name: Cours BRVM
-# Une seule exécution longue lit la page des cours toutes les 10 minutes jusqu'à la fermeture du marché (15h00, ±1 min ; 12h00 la veille d'un jour férié ; rien les jours fériés).
+# Une seule exécution longue lit la page des cours toutes les 3 minutes jusqu'à la fermeture du marché (15h00, ±1 min ; 12h00 la veille d'un jour férié ; rien les jours fériés).
 # Horaires et jours fériés : scripts/horaire.py (source brvm.org/fr/horaires-de-cotation et /fr/jours-feries).
 # Plus fiable que 6 lancements programmés par heure, car GitHub retarde ou saute souvent ces lancements.
 on:
@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
-      - name: Lire les cours toutes les 10 minutes jusqu'à la fermeture
+      - name: Lire les cours toutes les 3 minutes jusqu'à la fermeture
         run: |
           git config user.name "hbi-bot"
           git config user.email "hbi-bot@users.noreply.github.com"
@@ -32,6 +32,6 @@ jobs:
             python3 scripts/fetch_cours.py || echo "Lecture échouée, on réessaie au prochain tour"
             git add cours.json
             git diff --cached --quiet || (git commit -q -m "Cours $(date -u +%d/%m %H:%M) UTC" && git pull --rebase -q && git push -q) || echo "Enregistrement échoué, on réessaie"
-            # toutes les 10 min ; toutes les 5 min dans l'heure de clôture pour attraper le dernier cours officiel
-            [ "$hm" -ge $((FIN - 70)) ] && sleep 300 || sleep 600
+            # la BRVM met sa page à jour toutes les 15 min : on la relit toutes les 3 min (2 min dans l'heure de clôture) pour afficher chaque relevé sans attendre
+            [ "$hm" -ge $((FIN - 70)) ] && sleep 120 || sleep 180
           done
