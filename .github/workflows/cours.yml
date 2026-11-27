@@ -4,8 +4,8 @@ name: Cours BRVM
 # Plus fiable que 6 lancements programmés par heure, car GitHub retarde ou saute souvent ces lancements.
 on:
   schedule:
-    - cron: "30 9 * * 1-5"    # démarrage normal, 9h30 (le premier cours coté est à 9h45 ; GitHub limite une exécution à 6 h)
-    - cron: "50 9 * * 1-5"    # 2e filet : GitHub retarde souvent le lancement de 9h30 (si une exécution tourne déjà, celle-ci attend puis s'arrête aussitôt)
+    - cron: "12 9 * * 1-5"    # démarrage normal, 9h12 (heure creuse : GitHub retarde surtout les lancements pile à l'heure et à la demie) (le premier cours coté est à 9h45 ; GitHub limite une exécution à 6 h)
+    - cron: "37 9 * * 1-5"    # 2e filet, 9h37 : GitHub retarde souvent le lancement de 9h30 (si une exécution tourne déjà, celle-ci attend puis s'arrête aussitôt)
     - cron: "5 11 * * 1-5"    # filet de sécurité : relance si le démarrage de 9h30 a été sauté
   workflow_dispatch: {}        # démarrage à la main (bouton Run workflow) : elle s'arrête à la fermeture du marché
 permissions:
