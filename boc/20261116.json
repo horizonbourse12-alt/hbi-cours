@@ -1,0 +1,27 @@
+{
+ "date": "16/11/2026",
+ "source": "BOC n° 218",
+ "communiques": [
+  {
+   "emetteur": "FILTISAC CI",
+   "numero": "20261116",
+   "nature": "Communiqué",
+   "objet": "Changement important dans la Direction - FILTISAC CI",
+   "rapport": false
+  },
+  {
+   "emetteur": "SOGB",
+   "numero": "20261116-1",
+   "nature": "Communiqué",
+   "objet": "Changement important dans la Direction - SOGB CI",
+   "rapport": false
+  },
+  {
+   "emetteur": "SOGB",
+   "numero": "20261116-2",
+   "nature": "Communiqué de presse",
+   "objet": "Communiqué de Presse - SOGB CI",
+   "rapport": false
+  }
+ ]
+}
