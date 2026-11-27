@@ -87,7 +87,25 @@ def parse(html):
     if not m: raise SystemExit("Date de mise à jour introuvable")
     jj, mois, aaaa, hh, mm = int(m.group(1)), MOIS.get(norm(m.group(2))), int(m.group(3)), int(m.group(4)), int(m.group(5))
     if not mois: raise SystemExit(f"Mois inconnu : {m.group(2)}")
-    return {"date": f"{jj:02d}/{mois:02d}/{aaaa}", "heure": f"{hh:02d}h{mm:02d}", "provisoire": True, "source": "brvm.org (différé 15 min)", "rows": rows}
+    out = {"date": f"{jj:02d}/{mois:02d}/{aaaa}", "heure": f"{hh:02d}h{mm:02d}", "provisoire": True, "source": "brvm.org (différé 15 min)", "rows": rows}
+    try:
+        ind = lire_indices(html)
+        if ind: out["indices"] = ind
+    except Exception as e:
+        print("Indices illisibles (ignorés) :", e)
+    return out
+
+
+def lire_indices(html):
+    """Indices affichés par la BRVM (BRVM-C = Composite, BRVM-30, BRVM-PRES = Prestige) : valeur et variation du jour."""
+    txt = " ".join(re.sub(r"<[^>]+>", " ", html).replace("&nbsp;", " ").replace("\xa0", " ").split())
+    res = []
+    for code, nom in (("BRVM-C", "BRVM Composite"), ("BRVM-30", "BRVM 30"), ("BRVM-PRES", "BRVM Prestige")):
+        m = re.search(re.escape(code) + r"\s*([\d ]+[,.]\d+)\s*([-−+]?\s*\d+[,.]\d+)\s*%", txt)
+        if not m: continue
+        v = num(m.group(1)); pct = num(m.group(2).replace("−", "-").replace(" ", ""))
+        if v and pct is not None and abs(pct) < 30: res.append({"n": nom, "v": v, "p": pct})
+    return res
 
 
 CP = "data/cloture_precedente.json"
