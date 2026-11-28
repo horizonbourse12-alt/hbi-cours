@@ -117,6 +117,7 @@ def iso(d):
 
 
 HIST = "data/historique_cloture.json"
+HIST_IND = "data/historique_indices.json"
 
 
 def archiver_cloture(cp):
@@ -125,6 +126,18 @@ def archiver_cloture(cp):
     except Exception: h = {}
     h[cp["date"]] = cp["closes"]
     json.dump(dict(sorted(h.items(), key=lambda kv: iso(kv[0]))), open(HIST, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+
+
+def archiver_indices(old):
+    """Archive les niveaux des indices (Composite, 30, Prestige) du dernier relevé d'une séance, pour le récap hebdomadaire."""
+    try:
+        ind = {x["n"]: x["v"] for x in (old.get("indices") or []) if x.get("n") and x.get("v")}
+        if not ind: return
+        try: h = json.load(open(HIST_IND, encoding="utf-8"))
+        except Exception: h = {}
+        h[old["date"]] = ind
+        json.dump(dict(sorted(h.items(), key=lambda kv: iso(kv[0]))), open(HIST_IND, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    except Exception: pass
 
 
 def clotures_precedentes(data, old):
@@ -136,6 +149,7 @@ def clotures_precedentes(data, old):
         import os; os.makedirs(os.path.dirname(CP), exist_ok=True)
         json.dump(cp, open(CP, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         archiver_cloture(cp)
+        archiver_indices(old)
     return cp.get("closes", {}) if iso(cp.get("date")) and iso(cp["date"]) < iso(data["date"]) else {}
 
 

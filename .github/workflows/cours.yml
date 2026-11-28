@@ -33,7 +33,7 @@ jobs:
             git rebase --abort 2>/dev/null || true
             git fetch -q origin main && git reset -q --hard origin/main || echo "Synchronisation échouée, on continue"
             python3 scripts/fetch_cours.py || echo "Lecture échouée, on réessaie au prochain tour"
-            git add cours.json data/cloture_precedente.json data/historique_cloture.json
+            git add cours.json data/cloture_precedente.json data/historique_cloture.json data/historique_indices.json
             git diff --cached --quiet || { git commit -q -m "Cours $(date -u +%d/%m %H:%M) UTC" && git push -q || { echo "Enregistrement échoué, on réessaie au prochain tour"; git fetch -q origin main; git reset -q --hard origin/main; }; }
             # la BRVM met sa page à jour toutes les 15 min : on la relit toutes les 3 min (2 min dans l'heure de clôture) pour afficher chaque relevé sans attendre
             [ "$hm" -ge $((FIN - 70)) ] && sleep 120 || sleep 180
